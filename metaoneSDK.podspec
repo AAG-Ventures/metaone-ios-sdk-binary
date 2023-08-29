@@ -1,19 +1,19 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
   spec.name         = "metaoneSDK"
   spec.version      = "0.0.1"
   spec.summary      = "Embeddable Wallet SDK for any mobile app"
   spec.description  = <<-DESC
-  Implement a wallet in your app in minutes.
-                   DESC
+    Implement a wallet in your app in minutes.
+  DESC
 
   spec.homepage     = "https://getmeta.one/"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author             = { "AAG" => "support@aag.ventures" }
-  spec.social_media_url   = "https://www.linkedin.com/company/aag-ventures/mycompany/"
+  spec.author       = { "AAG" => "support@aag.ventures" }
+  spec.social_media_url = "https://www.linkedin.com/company/aag-ventures/mycompany/"
 
   spec.platform     = :ios
   spec.ios.deployment_target = "14.0"
-  spec.source       = { :git => 'https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git', :tag => s.version }
+  spec.source       = { :git => 'https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git', :tag => spec.version }
 
     # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.dependency "RxSwift", "~> 6.5.0"
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   spec.dependency "WKWebViewJavascriptBridge"
   spec.dependency "lottie-ios"
 
-  spec.ios.frameworks    = 'Foundation', 'UIKit', 'WebKit', 'SafariServices'
-  spec.ios.vendored_frameworks = 'metaoneSDK.xcframework'
+  spec.frameworks    = 'Foundation', 'UIKit', 'WebKit', 'SafariServices'
+  spec.vendored_frameworks = 'metaoneSDK.xcframework'
 
     # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.swift_version = "5.7"
