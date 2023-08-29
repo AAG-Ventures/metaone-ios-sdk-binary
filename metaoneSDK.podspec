@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   spec.platform     = :ios
   spec.ios.deployment_target = "14.0"
-  spec.source       = { :git => 'https://github.com/AAG-Ventures/metaone-ios-sdk-binary', :tag => s.version }
+  spec.source       = { :git => 'https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git', :tag => s.version }
 
     # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.dependency "RxSwift", "~> 6.5.0"
