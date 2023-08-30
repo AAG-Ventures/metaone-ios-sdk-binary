@@ -1,32 +1,30 @@
-Pod::Spec.new do |spec|
-  spec.name         = "metaoneSDK"
-  spec.version      = "0.0.1"
-  spec.summary      = "Embeddable Wallet SDK for any mobile app"
-  spec.description  = <<-DESC
+Pod::Spec.new do |s|
+    s.name              = 'metaoneSDK'
+    s.module_name       = 'metaoneSDK'
+    s.version           = '1.0.0'
+  
+    s.summary           = 'Embeddable Wallet SDK for any mobile app'
+  
+    s.description       = <<-DESC
     Implement a wallet in your app in minutes.
-  DESC
+                          DESC
+  
+    s.homepage     = "https://getmeta.one/"
+    s.license      = { :type => "MIT", :file => "LICENSE" }
+    s.author             = { "AAG" => "support@aag.ventures" }
+    s.social_media_url   = "https://www.linkedin.com/company/aag-ventures/mycompany/"
+  
+    s.platform          = :ios, '14.0'
+    s.source       = { :git => "https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git", :tag => "#{spec.version}" } # WARNING: HAS TO BE A PUBLIC REPO OF YOUR SDK
+    # s.source       = { :path => './' }
+  
+    s.dependency "RxSwift", "~> 6.5.0"
+    s.dependency "CYBAVOWallet", "~> 1.2.505"
+    s.dependency "KeychainSwift", "~> 20.0.0"
+    s.dependency "WKWebViewJavascriptBridge"
+    s.dependency "lottie-ios"
+    s.ios.vendored_frameworks = 'metaoneSDK.xcframework'
 
-  spec.homepage     = "https://getmeta.one/"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "AAG" => "support@aag.ventures" }
-  spec.social_media_url = "https://www.linkedin.com/company/aag-ventures/mycompany/"
-
-  spec.platform     = :ios
-  spec.ios.deployment_target = "14.0"
-  spec.source       = { :git => 'https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git', :tag => spec.version }
-
-    # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.dependency "RxSwift", "~> 6.5.0"
-  # spec.dependency "CYBAVOWallet", "~> 1.2.505"
-  spec.dependency "KeychainSwift", "~> 20.0.0"
-  spec.dependency "WKWebViewJavascriptBridge"
-  spec.dependency "lottie-ios"
-
-  spec.frameworks    = 'Foundation', 'UIKit', 'WebKit', 'SafariServices'
-  spec.vendored_frameworks = 'metaoneSDK.xcframework'
-
-    # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.swift_version = "5.7"
-  spec.requires_arc = true
-  spec.static_framework = true
-end
+    s.requires_arc = true
+    s.static_framework = true
+  end

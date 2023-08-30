@@ -1,0 +1,11 @@
+framework module metaoneSDK {
+  umbrella header "metaoneSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module metaoneSDK.Swift {
+  header "metaoneSDK-Swift.h"
+  requires objc
+}
