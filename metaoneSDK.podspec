@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.social_media_url   = "https://www.linkedin.com/company/aag-ventures/mycompany/"
   
     s.platform          = :ios, '14.0'
-    s.source       = { :git => "https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git", :tag => "#{spec.version}" } # WARNING: HAS TO BE A PUBLIC REPO OF YOUR SDK
+    s.source       = { :git => "https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git", :tag => "#{s.version}" }
     # s.source       = { :path => './' }
   
     s.dependency "RxSwift", "~> 6.5.0"
