@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
     # s.source       = { :path => './' }
   
     s.dependency "RxSwift", "~> 6.5.0"
-    s.dependency "CYBAVOWallet", "~> 1.2.505"
     s.dependency "KeychainSwift", "~> 20.0.0"
     s.dependency "WKWebViewJavascriptBridge"
     s.dependency "lottie-ios"
