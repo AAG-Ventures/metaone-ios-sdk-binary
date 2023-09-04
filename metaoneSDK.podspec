@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
     s.platform          = :ios, '14.0'
     s.source       = { :git => "https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git", :tag => "#{s.version}" }
   
+    s.dependency "Alamofire"
     s.dependency "RxSwift", "~> 6.5.0"
     s.dependency "KeychainSwift", "~> 20.0.0"
     s.dependency "WKWebViewJavascriptBridge"
