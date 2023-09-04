@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name              = 'metaoneSDK'
     s.module_name       = 'metaoneSDK'
-    s.version           = '1.0.0'
+    s.version           = '1.0.1'
   
     s.summary           = 'Embeddable Wallet SDK for any mobile app'
   
@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   
     s.platform          = :ios, '14.0'
     s.source       = { :git => "https://github.com/AAG-Ventures/metaone-ios-sdk-binary.git", :tag => "#{s.version}" }
-    # s.source       = { :path => './' }
   
     s.dependency "RxSwift", "~> 6.5.0"
     s.dependency "KeychainSwift", "~> 20.0.0"
