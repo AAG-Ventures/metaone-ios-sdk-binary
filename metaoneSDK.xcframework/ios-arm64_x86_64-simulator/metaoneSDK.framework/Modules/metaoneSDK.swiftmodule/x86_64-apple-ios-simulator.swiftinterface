@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name metaoneSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
 import Alamofire
 import AudioToolbox
 import CYBAVOWallet
@@ -1242,7 +1243,6 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public init()
   public func setup(completion: @escaping () -> Swift.Void)
   public func initialize(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
-  public func test()
   public func setupConfig(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.AppConfig.Config>? = nil)
   public func setupUserData()
   public func refreshSession(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
@@ -1250,6 +1250,7 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func hideSDKActivity()
   public func login(requestData: metaoneSDK.AuthApiModel.SSOLoginRequest, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.AuthApiModel.AuthResponse>)
   public func openEmailVerification(token: Swift.String)
+  public func requestCameraPermission()
   public func openWallet() -> metaoneSDK.ErrorResponse?
   public func createSigning(data: Swift.String)
   public func getExpireAt() -> Swift.Int64
