@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/TpyEL8pJZae4o64zxcwholmkns=
+		uBiwbQ+pXvGgmpT1iakmNRU1cJA=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		RQZzMVsZ4Yu/u034XYcvpXsPQ+4=
+		bvKjNn1I4S8/Y+k3Gl6xe34Yc+k=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		kbocEjQ7ZP2QsQmtaSqiBOgGIn8=
+		iw9jCslLhFIdFH0fH5TSpAIooyQ=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ggBCAVOEBUAbtYvbKwdVfzj0NOg=
+		1ebfoS6vN216yu5F9rShJQRquho=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HvW8aZTQv4pu+YApdyQkfBNqGz8=
+		D8svJzCCkkyZZmRpWmPIVtlC9Ds=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HvW8aZTQv4pu+YApdyQkfBNqGz8=
+		D8svJzCCkkyZZmRpWmPIVtlC9Ds=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3PXZohvqsk7TziIUKDsr4ZH6KQ8=
+		JrHLfkuog3u2j//9L3vLnIfCwEg=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ggBCAVOEBUAbtYvbKwdVfzj0NOg=
+		1ebfoS6vN216yu5F9rShJQRquho=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Iax046fUprr6kDDCzsaJmTRFUZs=
+		8yS4dPSaSkAFkQiQuKHM2vnik3Q=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,19 +62,15 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Iax046fUprr6kDDCzsaJmTRFUZs=
+		8yS4dPSaSkAFkQiQuKHM2vnik3Q=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R3QxKLOKpy1rFuhbeR8quQE/zUU=
+		VjsCK3lEfIkGbVAJzhbvsLyIW0c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		7IlZVnbNajyOmQsEpP5+Wk5BZKU=
-		</data>
-		<key>WalletSDK.plist</key>
-		<data>
-		mkpplW7yDOVSK649u6ROx7oKCco=
 		</data>
 		<key>check.json</key>
 		<data>
@@ -208,28 +204,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TVXtzRfBjrT3w72qvx7jf9yoiJZYDYXzQaEi5O7BYdA=
+			Xl7ZDNNvRYxFX3y9l2HE6a5+k3wcI7deiOPFPkZELa0=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UgYYonVD0FMvcu7o3RxshXKwJYOzPFTHqD7MA61y5x8=
+			IQVCKREEYsB73B2Oclo+ei5CDMuzPCj9XNPB9dbXm8U=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N2IkValNBShAEN2uKI5qanueka6ujcsp+PDpjfDR1HA=
+			TV39q/NhmM3tX3dTpliZTsiEV3XHsI1yMBAwWsKT7+E=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/mJ+dA4VAJlToiRR2NDi0/yPu8nbvlz+Xz1PgSbI0gI=
+			85fwcds9d3TmJ8APqK8q6ePhnZhgiWHi9EV9LMvuNq0=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -243,28 +239,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/mJ+dA4VAJlToiRR2NDi0/yPu8nbvlz+Xz1PgSbI0gI=
+			85fwcds9d3TmJ8APqK8q6ePhnZhgiWHi9EV9LMvuNq0=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WWEBDItcgsKPWICJ5pqtiEReCLDvIuJYIkI78zhN04g=
+			PRTEJyjgSxULNz2OHgRq4xNB82MxKy6BGBzZo+S+mNs=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N2IkValNBShAEN2uKI5qanueka6ujcsp+PDpjfDR1HA=
+			TV39q/NhmM3tX3dTpliZTsiEV3XHsI1yMBAwWsKT7+E=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yjx0jjEOHWLJAscGARvaOD+OfScpHk49Wj6x68quJYM=
+			6mUcGpo2kL2B2Y09wjE/Oi20bWRYYFql3HeFtHEpddY=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -278,14 +274,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yjx0jjEOHWLJAscGARvaOD+OfScpHk49Wj6x68quJYM=
+			6mUcGpo2kL2B2Y09wjE/Oi20bWRYYFql3HeFtHEpddY=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN2sT+vgeLqBuGIP02MFNT1umaNzvcyljr0qZRVrihA=
+			l0WpmHZZD6lVAOkX1cAuDOBNNQ/KyL5ZofsxKcyaDpA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -293,13 +289,6 @@
 			<key>hash2</key>
 			<data>
 			Oi29FmFiPsqa0RAltDwxPan1BuwZMSeBCjZMJ4WZeu0=
-			</data>
-		</dict>
-		<key>WalletSDK.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pTZcEQZv1dvkswcBudUYJAxCrgDEdn/CdSTlrC6rOWE=
 			</data>
 		</dict>
 		<key>check.json</key>
