@@ -118,6 +118,10 @@ public class M1EnqueueCallback<T> {
   public func toWalletCallback() -> CYBAVOWallet.Callback<T>
   @objc deinit
 }
+extension Swift.String {
+  public func toUIColor() -> UIKit.UIColor
+  public func toSwiftUIColor() -> SwiftUI.Color
+}
 @_hasMissingDesignatedInitializers public class MetaOneSDKApiManager : Foundation.ObservableObject {
   public func getWallets(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserWalletsResponse>)
   public func getCurrencies(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserCurrenciesResponse>)

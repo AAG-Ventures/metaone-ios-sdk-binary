@@ -111,7 +111,7 @@ setupWKWebViewJavascriptBridge(function(bridge) {
     window.M1SDKEvents.shareText = (title, message) => {
         return new Promise((resolve, reject) => {
             bridge.callHandler('shareText',
-                               {title:text, message: message},
+                               {title:title, message: message},
                                function(results, error){
                                     resolve(results);
                                 }
