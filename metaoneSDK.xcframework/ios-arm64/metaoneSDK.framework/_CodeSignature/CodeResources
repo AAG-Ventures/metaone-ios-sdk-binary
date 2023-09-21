@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/metaoneSDK-Swift.h</key>
 		<data>
-		hWEpCJQu9Zxj0aNLrKUK+Rp4qlY=
+		3sp6ahaKZHFWcKoTz/xcX8klQGQ=
 		</data>
 		<key>Headers/metaoneSDK.h</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		9LNM9bQ+4jmoW7MFycRGWcrg894=
+		f4OPV0+TSEXzoHBoG8ZmSXqA4wM=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1ebfoS6vN216yu5F9rShJQRquho=
+		Dhut0RSWaOWATACaJVasuvdmqZs=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FC9Cku97seX6Mz4gjskaI1xE9J4=
+		RUzCn8Qy8OpRYq/JRza0jTsj8z8=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,15 +38,19 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FC9Cku97seX6Mz4gjskaI1xE9J4=
+		RUzCn8Qy8OpRYq/JRza0jTsj8z8=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		u4molgC5p25W2e1azCOK4GH1pzo=
+		hHQJn9BVwwepOLFWQmRoPe4GQtQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		7IlZVnbNajyOmQsEpP5+Wk5BZKU=
+		</data>
+		<key>WalletSDK.plist</key>
+		<data>
+		mkpplW7yDOVSK649u6ROx7oKCco=
 		</data>
 		<key>check.json</key>
 		<data>
@@ -166,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9Z+CizAEcPiS2JLi/u0dJL/bKTVT+o3mT+Cl9aRmnk=
+			CLZ5/PeMFPBQaHWR/ZPzsJ6cx5jch3rLVr85WE6/1gY=
 			</data>
 		</dict>
 		<key>Headers/metaoneSDK.h</key>
@@ -180,21 +184,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4j2EDHWzc8Lkri0O0jKKMPdXtQat+b17vFxjfPkVuM=
+			gZzlOwkUISrs+68Ebc5r6W/Rneevk7Wo3rIkkZAceVY=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TV39q/NhmM3tX3dTpliZTsiEV3XHsI1yMBAwWsKT7+E=
+			nXWjPG9hK6ep0KRx/MraAdwsAz1LMCRdESTsTdgaYi0=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yz4Uq+P3s8cWIrHWmb2AmwQMeNwJtn7sEeLMF3i/HtQ=
+			Ql81kxoNAAHZOYsKtwORSGHmAdWpKxIvHeWX1cHhS04=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -208,14 +212,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yz4Uq+P3s8cWIrHWmb2AmwQMeNwJtn7sEeLMF3i/HtQ=
+			Ql81kxoNAAHZOYsKtwORSGHmAdWpKxIvHeWX1cHhS04=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vtj1HfTYK8vjanesigz8/3WMemThYY4v8GRTp6efuqM=
+			fF2dDHVCEpZ+4Pidfxgplzv9OGo/U/BmOdiR2IQvhxw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -223,6 +227,13 @@
 			<key>hash2</key>
 			<data>
 			Oi29FmFiPsqa0RAltDwxPan1BuwZMSeBCjZMJ4WZeu0=
+			</data>
+		</dict>
+		<key>WalletSDK.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pTZcEQZv1dvkswcBudUYJAxCrgDEdn/CdSTlrC6rOWE=
 			</data>
 		</dict>
 		<key>check.json</key>

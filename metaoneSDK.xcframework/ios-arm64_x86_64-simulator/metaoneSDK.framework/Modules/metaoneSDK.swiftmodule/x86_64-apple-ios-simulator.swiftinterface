@@ -5,15 +5,19 @@
 import AVFoundation
 import Alamofire
 import AudioToolbox
+import BigInt
 import CYBAVOWallet
 import Combine
 import CommonCrypto
 import CryptoKit
+import CryptoSwift
 import Foundation
 import KeychainSwift
 import Lottie
 import Swift
 import SwiftUI
+import SwiftyRSA
+import SystemConfiguration
 import UIKit
 import WKWebViewJavascriptBridge
 import WebKit
@@ -518,6 +522,7 @@ public struct M1Button : SwiftUI.View {
   public static var SDK_ENVIRONMENT: Swift.String
   public static var SDK_KEY: Swift.String
   public static var SDK_CONFIG_URL: Swift.String
+  public static var SDK_PUB_PHRASE: Swift.String
   public static var SDK_API_CLIENT_REFERENCE: Swift.String
   public static var SDK_BASE_CONFIG_URL: Swift.String {
     get
@@ -733,7 +738,7 @@ public enum Transactions {
     public let to: Swift.String
     public let from: Swift.String
     public let fee: metaoneSDK.Transactions.Fee
-    public let nonce: Swift.String?
+    public let nonce: Swift.Int64?
     public let status: Swift.Int
     public let chainId: Swift.String
     public let bip44: Swift.String
@@ -792,20 +797,6 @@ public enum Transactions {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct UnsignedRpcTransactionData : Swift.Codable {
-    public let data: Swift.String
-    public let gas: Swift.String?
-    public let from: Swift.String?
-    public let to: Swift.String?
-    public let nonce: Swift.String?
-    public let value: Swift.String?
-    public let prevTxId: Swift.String
-    public let functionName: Swift.String?
-    public let contractAddress: Swift.String?
-    public let sourceUrl: Swift.String?
-    public let networkType: metaoneSDK.Wallets.WalletsTypes?
-    public let walletId: Swift.String?
-    public let txData: metaoneSDK.Transactions.SolanaUnsignedTransaction?
-    public let message: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -1380,6 +1371,7 @@ public enum AppConfig {
   public var onClose: (() -> Swift.Void)?
   public func handleActionTitle(message: Swift.String)
   public func hideSheet()
+  public func hideLoading()
   #if compiler(>=5.3) && $AsyncAwait
   public func confirmTransaction(pin: Swift.String, message: Swift.String) async
   #endif
@@ -1451,6 +1443,26 @@ public enum Signing {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
+  public struct ReceivedEvent : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct ValidatePinData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct ValidatePinEventResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct WalletConnectSigningData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct WalletConnectMessageSignData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
   public struct CurrencyTransactionData : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
@@ -1464,6 +1476,26 @@ public enum Signing {
     @objc deinit
     public func encode(to encoder: any Swift.Encoder) throws
     required public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct DispatchedRpcEvent : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct JsonRpcErrorMessage : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct DispatchedRpcEventData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct WalletConnectTransactionEventResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct WalletConnectMessageSignEventResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
   public struct NFTTransactionEventResponse : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
