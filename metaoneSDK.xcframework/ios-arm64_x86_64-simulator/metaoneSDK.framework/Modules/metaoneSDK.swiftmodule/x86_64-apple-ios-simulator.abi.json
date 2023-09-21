@@ -68870,154 +68870,161 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 906,
+      "offset": 332,
+      "length": 9,
+      "value": "\"Poppins\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
       "length": 34,
       "value": "\"Error registering font: \""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 939,
+      "offset": 936,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 1107,
       "length": 38,
       "value": "\"Font file not found: \""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1144,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1302,
+      "offset": 1299,
       "length": 17,
       "value": "\"Poppins-Regular\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1431,
+      "offset": 1428,
       "length": 14,
       "value": "\"Poppins-Bold\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1554,
+      "offset": 1551,
       "length": 18,
       "value": "\"Poppins-SemiBold\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1686,
+      "offset": 1683,
       "length": 16,
       "value": "\"Poppins-Medium\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1815,
+      "offset": 1812,
       "length": 15,
       "value": "\"Poppins-Black\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 1948,
+      "offset": 1945,
       "length": 20,
       "value": "\"Poppins-ExtraLight\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 2085,
+      "offset": 2082,
       "length": 19,
       "value": "\"Poppins-ExtraBold\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 2216,
+      "offset": 2213,
       "length": 14,
       "value": "\"Poppins-Thin\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
+      "offset": 2340,
       "length": 15,
       "value": "\"Poppins-Light\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
+      "offset": 2504,
       "length": 17,
       "value": "\"Poppins-Regular\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 2640,
+      "offset": 2637,
       "length": 14,
       "value": "\"Poppins-Bold\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 2774,
+      "offset": 2771,
       "length": 18,
       "value": "\"Poppins-SemiBold\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 2910,
+      "offset": 2907,
       "length": 16,
       "value": "\"Poppins-Medium\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 3043,
+      "offset": 3040,
       "length": 15,
       "value": "\"Poppins-Black\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 3180,
+      "offset": 3177,
       "length": 20,
       "value": "\"Poppins-ExtraLight\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 3321,
+      "offset": 3318,
       "length": 19,
       "value": "\"Poppins-ExtraBold\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 3456,
+      "offset": 3453,
       "length": 14,
       "value": "\"Poppins-Thin\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/styles\/Font.swift",
       "kind": "StringLiteral",
-      "offset": 3587,
+      "offset": 3584,
       "length": 15,
       "value": "\"Poppins-Light\""
     },
