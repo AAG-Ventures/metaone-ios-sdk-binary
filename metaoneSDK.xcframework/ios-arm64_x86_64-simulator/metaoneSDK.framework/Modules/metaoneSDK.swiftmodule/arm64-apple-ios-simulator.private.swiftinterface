@@ -1055,23 +1055,30 @@ public enum WalletRequestMode : Swift.String {
   }
 }
 public struct UserWalletsResponse : Swift.Codable {
+  public let wallets: [metaoneSDK.Wallets.UserWallet]
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct UserWalletResponse : Swift.Codable {
+  public let wallet: metaoneSDK.Wallets.UserWallet
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct UserCurrenciesResponse : Swift.Codable {
+  public let currencies: [metaoneSDK.Wallets.UserCurrency]
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct UserCurrencyResponse : Swift.Codable {
+  public let currency: metaoneSDK.Wallets.UserCurrency
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct UserNFTsResponse : Swift.Codable {
+  public let data: metaoneSDK.UserNFTsResponse.UserData?
   public struct UserData : Swift.Codable {
+    public let entries: [metaoneSDK.NFT.UserNFT]
+    public let total: Swift.Int
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }

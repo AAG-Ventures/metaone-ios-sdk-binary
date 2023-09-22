@@ -42391,6 +42391,66 @@
         "printedName": "UserWalletsResponse",
         "children": [
           {
+            "kind": "Var",
+            "name": "wallets",
+            "printedName": "wallets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[metaoneSDK.Wallets.UserWallet]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserWallet",
+                    "printedName": "metaoneSDK.Wallets.UserWallet",
+                    "usr": "s:10metaoneSDK7WalletsO10UserWalletV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK19UserWalletsResponseV7walletsSayAA0D0O0C6WalletVGvp",
+            "mangledName": "$s10metaoneSDK19UserWalletsResponseV7walletsSayAA0D0O0C6WalletVGvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[metaoneSDK.Wallets.UserWallet]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserWallet",
+                        "printedName": "metaoneSDK.Wallets.UserWallet",
+                        "usr": "s:10metaoneSDK7WalletsO10UserWalletV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK19UserWalletsResponseV7walletsSayAA0D0O0C6WalletVGvg",
+                "mangledName": "$s10metaoneSDK19UserWalletsResponseV7walletsSayAA0D0O0C6WalletVGvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -42471,6 +42531,50 @@
         "name": "UserWalletResponse",
         "printedName": "UserWalletResponse",
         "children": [
+          {
+            "kind": "Var",
+            "name": "wallet",
+            "printedName": "wallet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserWallet",
+                "printedName": "metaoneSDK.Wallets.UserWallet",
+                "usr": "s:10metaoneSDK7WalletsO10UserWalletV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK18UserWalletResponseV6walletAA7WalletsO0cD0Vvp",
+            "mangledName": "$s10metaoneSDK18UserWalletResponseV6walletAA7WalletsO0cD0Vvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserWallet",
+                    "printedName": "metaoneSDK.Wallets.UserWallet",
+                    "usr": "s:10metaoneSDK7WalletsO10UserWalletV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK18UserWalletResponseV6walletAA7WalletsO0cD0Vvg",
+                "mangledName": "$s10metaoneSDK18UserWalletResponseV6walletAA7WalletsO0cD0Vvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -42553,6 +42657,66 @@
         "printedName": "UserCurrenciesResponse",
         "children": [
           {
+            "kind": "Var",
+            "name": "currencies",
+            "printedName": "currencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[metaoneSDK.Wallets.UserCurrency]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserCurrency",
+                    "printedName": "metaoneSDK.Wallets.UserCurrency",
+                    "usr": "s:10metaoneSDK7WalletsO12UserCurrencyV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK22UserCurrenciesResponseV10currenciesSayAA7WalletsO0C8CurrencyVGvp",
+            "mangledName": "$s10metaoneSDK22UserCurrenciesResponseV10currenciesSayAA7WalletsO0C8CurrencyVGvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[metaoneSDK.Wallets.UserCurrency]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserCurrency",
+                        "printedName": "metaoneSDK.Wallets.UserCurrency",
+                        "usr": "s:10metaoneSDK7WalletsO12UserCurrencyV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK22UserCurrenciesResponseV10currenciesSayAA7WalletsO0C8CurrencyVGvg",
+                "mangledName": "$s10metaoneSDK22UserCurrenciesResponseV10currenciesSayAA7WalletsO0C8CurrencyVGvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -42633,6 +42797,50 @@
         "name": "UserCurrencyResponse",
         "printedName": "UserCurrencyResponse",
         "children": [
+          {
+            "kind": "Var",
+            "name": "currency",
+            "printedName": "currency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserCurrency",
+                "printedName": "metaoneSDK.Wallets.UserCurrency",
+                "usr": "s:10metaoneSDK7WalletsO12UserCurrencyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK20UserCurrencyResponseV8currencyAA7WalletsO0cD0Vvp",
+            "mangledName": "$s10metaoneSDK20UserCurrencyResponseV8currencyAA7WalletsO0cD0Vvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserCurrency",
+                    "printedName": "metaoneSDK.Wallets.UserCurrency",
+                    "usr": "s:10metaoneSDK7WalletsO12UserCurrencyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK20UserCurrencyResponseV8currencyAA7WalletsO0cD0Vvg",
+                "mangledName": "$s10metaoneSDK20UserCurrencyResponseV8currencyAA7WalletsO0cD0Vvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -42715,10 +42923,174 @@
         "printedName": "UserNFTsResponse",
         "children": [
           {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "metaoneSDK.UserNFTsResponse.UserData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserData",
+                    "printedName": "metaoneSDK.UserNFTsResponse.UserData",
+                    "usr": "s:10metaoneSDK16UserNFTsResponseV0C4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK16UserNFTsResponseV4dataAC0C4DataVSgvp",
+            "mangledName": "$s10metaoneSDK16UserNFTsResponseV4dataAC0C4DataVSgvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "metaoneSDK.UserNFTsResponse.UserData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserData",
+                        "printedName": "metaoneSDK.UserNFTsResponse.UserData",
+                        "usr": "s:10metaoneSDK16UserNFTsResponseV0C4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK16UserNFTsResponseV4dataAC0C4DataVSgvg",
+                "mangledName": "$s10metaoneSDK16UserNFTsResponseV4dataAC0C4DataVSgvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "UserData",
             "printedName": "UserData",
             "children": [
+              {
+                "kind": "Var",
+                "name": "entries",
+                "printedName": "entries",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[metaoneSDK.NFT.UserNFT]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserNFT",
+                        "printedName": "metaoneSDK.NFT.UserNFT",
+                        "usr": "s:10metaoneSDK3NFTO04UserC0V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK16UserNFTsResponseV0C4DataV7entriesSayAA3NFTO0cH0VGvp",
+                "mangledName": "$s10metaoneSDK16UserNFTsResponseV0C4DataV7entriesSayAA3NFTO0cH0VGvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[metaoneSDK.NFT.UserNFT]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UserNFT",
+                            "printedName": "metaoneSDK.NFT.UserNFT",
+                            "usr": "s:10metaoneSDK3NFTO04UserC0V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK16UserNFTsResponseV0C4DataV7entriesSayAA3NFTO0cH0VGvg",
+                    "mangledName": "$s10metaoneSDK16UserNFTsResponseV0C4DataV7entriesSayAA3NFTO0cH0VGvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "total",
+                "printedName": "total",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK16UserNFTsResponseV0C4DataV5totalSivp",
+                "mangledName": "$s10metaoneSDK16UserNFTsResponseV0C4DataV5totalSivp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK16UserNFTsResponseV0C4DataV5totalSivg",
+                    "mangledName": "$s10metaoneSDK16UserNFTsResponseV0C4DataV5totalSivg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
               {
                 "kind": "Constructor",
                 "name": "init",
@@ -70708,203 +71080,203 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 929,
+      "offset": 978,
       "length": 13,
       "value": "\"synchronous\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 974,
+      "offset": 1023,
       "length": 14,
       "value": "\"emptyWallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1070,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "Array",
-      "offset": 2362,
+      "offset": 2411,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2625,
       "length": 10,
       "value": "\"walletId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2614,
+      "offset": 2663,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2644,
+      "offset": 2693,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2680,
+      "offset": 2729,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2759,
       "length": 11,
       "value": "\"chainName\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2750,
+      "offset": 2799,
       "length": 14,
       "value": "\"caip2ChainId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 2845,
       "length": 10,
       "value": "\"currency\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2834,
+      "offset": 2883,
       "length": 14,
       "value": "\"tokenAddress\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2929,
       "length": 16,
       "value": "\"currencySymbol\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2930,
+      "offset": 2979,
       "length": 16,
       "value": "\"parentWalletId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2980,
+      "offset": 3029,
       "length": 9,
       "value": "\"chainId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 3016,
+      "offset": 3065,
       "length": 11,
       "value": "\"isPrivate\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 3056,
+      "offset": 3105,
       "length": 21,
       "value": "\"mapToPublicCurrency\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 3116,
+      "offset": 3165,
       "length": 25,
       "value": "\"mapToPublicTokenAddress\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 3184,
+      "offset": 3233,
       "length": 17,
       "value": "\"mapToPublicName\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3285,
       "length": 12,
       "value": "\"walletCode\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 3278,
+      "offset": 3327,
       "length": 18,
       "value": "\"depositAddresses\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3391,
       "length": 19,
       "value": "\"isPrivateDisabled\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3963,
+      "offset": 4012,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 5049,
+      "offset": 5098,
       "length": 21,
       "value": "\"mapToPublicCurrency\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 5105,
+      "offset": 5154,
       "length": 25,
       "value": "\"mapToPublicTokenAddress\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 5169,
+      "offset": 5218,
       "length": 10,
       "value": "\"currency\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 5203,
+      "offset": 5252,
       "length": 14,
       "value": "\"tokenAddress\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 5245,
+      "offset": 5294,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/WalletsApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 5277,
+      "offset": 5326,
       "length": 6,
       "value": "\"memo\""
     },
