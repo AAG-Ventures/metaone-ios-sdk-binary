@@ -135,7 +135,7 @@ public enum User {
     public let user: Swift.String
     public let name: Swift.String
     public let email: Swift.String
-    public let avatar: Swift.String
+    public let avatar: Swift.String?
     public let update: Swift.Int?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
@@ -750,7 +750,7 @@ public enum Transactions {
     public let to: Swift.String
     public let from: Swift.String
     public let fee: metaoneSDK.Transactions.Fee
-    public let nonce: Swift.Int64?
+    public let nonce: Swift.String?
     public let status: Swift.Int
     public let chainId: Swift.String
     public let bip44: Swift.String
@@ -759,7 +759,7 @@ public enum Transactions {
     public let function: Swift.String?
     public let sourceUrl: Swift.String?
     public let events: [metaoneSDK.Transactions.UserEvent]
-    public let txData: metaoneSDK.Transactions.TxData?
+    public let txData: Swift.String?
     public let tags: [Swift.String]?
     public let externalExplorerURL: Swift.String?
     public let aggregatedData: metaoneSDK.Transactions.AggregatedData?
