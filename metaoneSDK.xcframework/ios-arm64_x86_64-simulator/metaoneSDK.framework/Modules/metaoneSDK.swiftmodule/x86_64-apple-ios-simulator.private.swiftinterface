@@ -132,6 +132,11 @@ extension Swift.String {
 }
 public enum User {
   public struct Profile : Swift.Codable {
+    public let user: Swift.String
+    public let name: Swift.String
+    public let email: Swift.String
+    public let avatar: Swift.String
+    public let update: Swift.Int?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -566,6 +571,9 @@ public enum UserApiModel {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct GetProfileResponse : Swift.Codable {
+    public let profile: metaoneSDK.User.Profile
+    public let ackTnC: Swift.Int
+    public let ackPrivacy: Swift.Int
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }

@@ -3494,6 +3494,242 @@
             "printedName": "Profile",
             "children": [
               {
+                "kind": "Var",
+                "name": "user",
+                "printedName": "user",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK4UserO7ProfileV4userSSvp",
+                "mangledName": "$s10metaoneSDK4UserO7ProfileV4userSSvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK4UserO7ProfileV4userSSvg",
+                    "mangledName": "$s10metaoneSDK4UserO7ProfileV4userSSvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK4UserO7ProfileV4nameSSvp",
+                "mangledName": "$s10metaoneSDK4UserO7ProfileV4nameSSvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK4UserO7ProfileV4nameSSvg",
+                    "mangledName": "$s10metaoneSDK4UserO7ProfileV4nameSSvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "email",
+                "printedName": "email",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK4UserO7ProfileV5emailSSvp",
+                "mangledName": "$s10metaoneSDK4UserO7ProfileV5emailSSvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK4UserO7ProfileV5emailSSvg",
+                    "mangledName": "$s10metaoneSDK4UserO7ProfileV5emailSSvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "avatar",
+                "printedName": "avatar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK4UserO7ProfileV6avatarSSvp",
+                "mangledName": "$s10metaoneSDK4UserO7ProfileV6avatarSSvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK4UserO7ProfileV6avatarSSvg",
+                    "mangledName": "$s10metaoneSDK4UserO7ProfileV6avatarSSvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "update",
+                "printedName": "update",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK4UserO7ProfileV6updateSiSgvp",
+                "mangledName": "$s10metaoneSDK4UserO7ProfileV6updateSiSgvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK4UserO7ProfileV6updateSiSgvg",
+                    "mangledName": "$s10metaoneSDK4UserO7ProfileV6updateSiSgvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -24608,6 +24844,138 @@
             "name": "GetProfileResponse",
             "printedName": "GetProfileResponse",
             "children": [
+              {
+                "kind": "Var",
+                "name": "profile",
+                "printedName": "profile",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Profile",
+                    "printedName": "metaoneSDK.User.Profile",
+                    "usr": "s:10metaoneSDK4UserO7ProfileV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK12UserApiModelO18GetProfileResponseV7profileAA0C0O0G0Vvp",
+                "mangledName": "$s10metaoneSDK12UserApiModelO18GetProfileResponseV7profileAA0C0O0G0Vvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Profile",
+                        "printedName": "metaoneSDK.User.Profile",
+                        "usr": "s:10metaoneSDK4UserO7ProfileV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK12UserApiModelO18GetProfileResponseV7profileAA0C0O0G0Vvg",
+                    "mangledName": "$s10metaoneSDK12UserApiModelO18GetProfileResponseV7profileAA0C0O0G0Vvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "ackTnC",
+                "printedName": "ackTnC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK12UserApiModelO18GetProfileResponseV6ackTnCSivp",
+                "mangledName": "$s10metaoneSDK12UserApiModelO18GetProfileResponseV6ackTnCSivp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK12UserApiModelO18GetProfileResponseV6ackTnCSivg",
+                    "mangledName": "$s10metaoneSDK12UserApiModelO18GetProfileResponseV6ackTnCSivg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "ackPrivacy",
+                "printedName": "ackPrivacy",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK12UserApiModelO18GetProfileResponseV10ackPrivacySivp",
+                "mangledName": "$s10metaoneSDK12UserApiModelO18GetProfileResponseV10ackPrivacySivp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK12UserApiModelO18GetProfileResponseV10ackPrivacySivg",
+                    "mangledName": "$s10metaoneSDK12UserApiModelO18GetProfileResponseV10ackPrivacySivg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
               {
                 "kind": "Constructor",
                 "name": "init",
@@ -69502,7 +69870,7 @@
       "kind": "StringLiteral",
       "offset": 93,
       "length": 7,
-      "value": "\"1.0.9\""
+      "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
