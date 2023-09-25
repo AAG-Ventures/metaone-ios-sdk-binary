@@ -124,7 +124,9 @@ extension Swift.String {
 }
 @_hasMissingDesignatedInitializers public class MetaOneSDKApiManager : Foundation.ObservableObject {
   public func getWallets(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserWalletsResponse>)
+  public func getWallet(walletId: Swift.String, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserWalletResponse>)
   public func getCurrencies(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserCurrenciesResponse>)
+  public func getCurrency(currencyId: Swift.String, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserCurrencyResponse>)
   public func getNfts(walletId: Swift.String?, queryString: Swift.String?, limit: Swift.Int, offset: Swift.Int, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserNFTsResponse>)
   public func getTransactions(walletId: Swift.String?, assetRef: Swift.String?, bip44: Swift.String?, tokenAddress: Swift.String?, page: Swift.Int?, offset: Swift.Int?, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.TransactionAPIModel.TransactionsResponse>?)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
@@ -471,6 +473,7 @@ public enum NFT {
     public init(from decoder: any Swift.Decoder) throws
   }
 }
+public func M1Alert(title: Swift.String, message: Swift.String, actionHandler: (() -> Swift.Void)? = nil, actionName: Swift.String?)
 @_hasMissingDesignatedInitializers public class VerifyEmailModel : Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($isLoading) public var isLoading: Swift.Bool {
     get
@@ -1467,6 +1470,10 @@ public enum Signing {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct ValidatePinData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct ValidatePinSignData : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }

@@ -41,6 +41,16 @@ setupWKWebViewJavascriptBridge(function(bridge) {
                                );
         })
     }
+    window.M1SDKEvents.setFailedSession = () => {
+        return new Promise((resolve, reject) => {
+            bridge.callHandler('m1SDKFailedSession',
+                               null,
+                               function(results, error){
+                resolve(results);
+            }
+                               );
+        })
+    }
     
     window.M1SDKEvents.getConfig = () => {
         return new Promise((resolve, reject) => {
