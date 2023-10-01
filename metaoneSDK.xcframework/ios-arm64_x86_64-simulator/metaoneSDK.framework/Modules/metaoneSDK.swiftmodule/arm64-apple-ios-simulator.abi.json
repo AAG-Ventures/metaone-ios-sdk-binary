@@ -73587,21 +73587,21 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/UserService.swift",
       "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 3105,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/UserService.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
+      "offset": 3693,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/UserService.swift",
       "kind": "StringLiteral",
-      "offset": 4733,
+      "offset": 4910,
       "length": 30,
       "value": "\"error while fetching profile\""
     },
