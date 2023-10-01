@@ -8,6 +8,8 @@
     "TransactionSignConfirmation.confirm_tx": "Confirm transaction",
     "TransactionSignConfirmation.sign_message": "Sign message",
     "TransactionPinConfirm.tx_pins_dont_match": "Signatures don’t match",
+    "TransactionPinConfirm.attempts_have": "You have",
+    "TransactionPinConfirm.attempts_left": "attempts left",
     "storage.repeating_numbers": "repeating numbers",
     "storage.use_at_least": "Code is not secure enough. Please use at least",
     "storage.consecutive_numbers": "Code is not secure enough. Please don't use 3 consecutive numbers",

@@ -548,6 +548,8 @@
 	"TransactionPinConfirm.signature_explain": "Yêu cầu ký giao dịch",
 	"TransactionPinConfirm.tx_pin_dont_match": "Chữ ký không khớp",
 	"TransactionPinConfirm.tx_pins_dont_match": "Chữ ký không khớp",
+    "TransactionPinConfirm.attempts_have": "Bạn còn",
+    "TransactionPinConfirm.attempts_left": "lần thử",
 	"TransactionPinExplainer.create_signature": "Tạo chữ ký",
 	"TransactionPinExplainer.description": "Chữ ký là một lớp bảo mật bổ sung cho bất kỳ giao dịch nào",
 	"TransactionPinExplainer.header": "Ký giao dịch của bạn",

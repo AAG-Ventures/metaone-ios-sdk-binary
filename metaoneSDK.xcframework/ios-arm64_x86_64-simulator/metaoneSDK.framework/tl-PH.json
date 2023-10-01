@@ -573,6 +573,8 @@
 	"TransactionSignConfirmation.user_denied_signature": "MetaOne Tx Signature: Tinanggihan ng user ang lagda ng transaksyon.",
 	"TransactionSpeedUplItem.gas_limit": "Limitasyon sa gas {gasLimit}",
 	"TransactionSpeedUplItem.gas_price": "Presyo ng gas (Gwei) {gasPrice}",
+    "TransactionPinConfirm.attempts_have": "Mayroon kang",
+    "TransactionPinConfirm.attempts_left": "na mga pagsubok na natitira",
 	"TransactionSpeedUplItem.nonce": "Hindi {nonce}",
 	"TransactionSpeedUplItem.speed_up": "Bilisan",
 	"TransactionStatus.by": "sa pamamagitan ng",

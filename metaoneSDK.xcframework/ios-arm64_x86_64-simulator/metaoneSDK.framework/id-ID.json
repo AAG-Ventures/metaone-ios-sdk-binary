@@ -555,6 +555,8 @@
 	"TransactionPinResetCompleted.continue_exploring": "Lanjutkan penjelajahan",
 	"TransactionPinResetCompleted.transaction_pin_reset": "Tanda tangan telah berhasil direset",
 	"TransactionPinSet.additional_trans_pin": "PIN ini merupakan langkah keamanan tambahan untuk menyetujui transaksi Anda",
+    "TransactionPinConfirm.attempts_have": "Anda memiliki sisa",
+    "TransactionPinConfirm.attempts_left": "percobaan",
 	"TransactionPinSet.create_signature": "Buat Tanda Tangan Anda",
 	"TransactionPinSet.create_trans_pin": "Buat Tanda Tangan",
 	"TransactionPinSet.finally": "Akhirnya",

@@ -550,7 +550,7 @@ public struct M1Button : SwiftUI.View {
   }
   @objc deinit
 }
-public struct FirstWordPurpleTitle : SwiftUI.View {
+@_Concurrency.MainActor(unsafe) public struct FirstWordPurpleTitle : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -559,7 +559,24 @@ public struct FirstWordPurpleTitle : SwiftUI.View {
 public enum ContactApiModel {
   public struct ContactsResponse {
   }
-  public struct ContactResponse {
+  public struct ContactWalletAddress : Swift.Codable {
+    public var id: Swift.String
+    public var name: Swift.String
+    public var address: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Contact : Swift.Codable {
+    public var id: Swift.String?
+    public var name: Swift.String
+    public var photo: Swift.String?
+    public var wallets: [metaoneSDK.ContactApiModel.ContactWalletAddress]
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct ContactResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
   public struct ContactData {
   }
@@ -1018,16 +1035,6 @@ public enum TransactionAPIModel {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($errorMessage) public var errorMessage: Swift.String {
-    get
-    set
-    _modify
-  }
-  public var $errorMessage: Combine.Published<Swift.String>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
   #if compiler(>=5.3) && $AsyncAwait
   public func confirmSignaturePin(pin: Swift.String) async
   #endif
@@ -1370,16 +1377,6 @@ public enum AppConfig {
   }
 }
 @_hasMissingDesignatedInitializers public class ConfirmTransactionModel : Foundation.ObservableObject {
-  @Combine.Published @_projectedValueProperty($errorMessage) public var errorMessage: Swift.String {
-    get
-    set
-    _modify
-  }
-  public var $errorMessage: Combine.Published<Swift.String>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
   @Combine.Published @_projectedValueProperty($actionTitle) public var actionTitle: Swift.String {
     get
     set
@@ -1609,6 +1606,10 @@ public enum Signing {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct SignMessageEventResponse {
+  }
+  public struct SignMessageEventErrorResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
   public struct CodableCreateTransactionResult : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws

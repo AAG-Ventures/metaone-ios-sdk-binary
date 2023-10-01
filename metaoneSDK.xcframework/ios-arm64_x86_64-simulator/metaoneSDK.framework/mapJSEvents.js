@@ -52,6 +52,20 @@ setupWKWebViewJavascriptBridge(function(bridge) {
         })
     }
     
+    window.M1SDKEvents.openExternalLink = (url) => {
+        return new Promise((resolve, reject) => {
+            console.log("RESULT HAPPEN")
+            bridge.callHandler('openExternalLink',
+                               {url:url},
+                               function(results, error){
+                console.log("RESULTS", results);
+                resolve(results);
+            }
+                               );
+        })
+    }
+    
+    
     window.M1SDKEvents.getConfig = () => {
         return new Promise((resolve, reject) => {
             bridge.callHandler('getConfig',

@@ -548,6 +548,8 @@
 	"TransactionPinConfirm.signature_explain": "需要签署交易",
 	"TransactionPinConfirm.tx_pin_dont_match": "签名不匹配",
 	"TransactionPinConfirm.tx_pins_dont_match": "签名不匹配",
+    "TransactionPinConfirm.attempts_have": "您还有",
+    "TransactionPinConfirm.attempts_left": "次尝试",
 	"TransactionPinExplainer.create_signature": "创建签名",
 	"TransactionPinExplainer.description": "签名是任何交易的额外安全层",
 	"TransactionPinExplainer.header": "签署您的交易",
