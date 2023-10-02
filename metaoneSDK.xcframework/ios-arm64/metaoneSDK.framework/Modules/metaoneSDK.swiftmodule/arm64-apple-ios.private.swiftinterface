@@ -25,7 +25,7 @@ import _Concurrency
 import _StringProcessing
 @_exported import metaoneSDK
 @_Concurrency.MainActor(unsafe) public struct VerifyEmailView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(verifyEmailModel: metaoneSDK.VerifyEmailModel, token: Swift.String)
+  @_Concurrency.MainActor(unsafe) public init(verifyEmailModel: metaoneSDK.VerifyEmailModel, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?, token: Swift.String)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -154,9 +154,13 @@ public enum User {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK19VirtualKeyboardViewV4bodyQrvp", 0) __
 }
-public enum NavigationStackType : Swift.Equatable {
-  case createSignature, openWallet, openEmailVerification(Swift.String)
-  public static func == (a: metaoneSDK.NavigationStackType, b: metaoneSDK.NavigationStackType) -> Swift.Bool
+public enum NavigationStackType {
+  case createSignature
+  case openWallet
+  case openEmailVerification(Swift.String, metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
+}
+extension metaoneSDK.NavigationStackType : Swift.Equatable {
+  public static func == (lhs: metaoneSDK.NavigationStackType, rhs: metaoneSDK.NavigationStackType) -> Swift.Bool
 }
 public class VirtualKeyboardViewModel : Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($highlightedButton) public var highlightedButton: Swift.Int? {
@@ -495,7 +499,7 @@ public func M1Alert(title: Swift.String, message: Swift.String, actionHandler: (
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  public func handleConfirm2FA(token: Swift.String, code: Swift.String)
+  public func handleConfirm2FA(token: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?, code: Swift.String)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -1268,8 +1272,8 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func refreshSession(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func startActivity(screenName: metaoneSDK.NavigationStackType)
   public func hideSDKActivity()
-  public func login(requestData: metaoneSDK.AuthApiModel.SSOLoginRequest, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.AuthApiModel.AuthResponse>)
-  public func openEmailVerification(token: Swift.String)
+  public func login(requestData: metaoneSDK.AuthApiModel.SSOLoginRequest, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>)
+  public func openEmailVerification(token: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
   public func requestCameraPermission()
   public func openWallet() -> metaoneSDK.ErrorResponse?
   public func createSigning(data: Swift.String)
@@ -1741,6 +1745,8 @@ public enum AuthApiModel {
     public let refreshToken: Swift.String
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct SerializedError : Swift.Error {
   }
 }
 public enum SupportedLanguage : Swift.String, Swift.CaseIterable {

@@ -29,7 +29,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(verifyEmailModel:token:)",
+            "printedName": "init(verifyEmailModel:callback:token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -45,14 +45,36 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "M1EnqueueCallback",
+                    "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10metaoneSDK15VerifyEmailViewV06verifyD5Model5tokenAcA0cdG0C_SStcfc",
-            "mangledName": "$s10metaoneSDK15VerifyEmailViewV06verifyD5Model5tokenAcA0cdG0C_SStcfc",
+            "usr": "s:10metaoneSDK15VerifyEmailViewV06verifyD5Model8callback5tokenAcA0cdG0C_AA17M1EnqueueCallbackCySbGSgSStcfc",
+            "mangledName": "$s10metaoneSDK15VerifyEmailViewV06verifyD5Model8callback5tokenAcA0cdG0C_AA17M1EnqueueCallbackCySbGSgSStcfc",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "Custom",
@@ -4886,12 +4908,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(metaoneSDK.NavigationStackType.Type) -> (Swift.String) -> metaoneSDK.NavigationStackType",
+                "printedName": "(metaoneSDK.NavigationStackType.Type) -> (Swift.String, metaoneSDK.M1EnqueueCallback<Swift.Bool>?) -> metaoneSDK.NavigationStackType",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> metaoneSDK.NavigationStackType",
+                    "printedName": "(Swift.String, metaoneSDK.M1EnqueueCallback<Swift.Bool>?) -> metaoneSDK.NavigationStackType",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4901,9 +4923,38 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, metaoneSDK.M1EnqueueCallback<Swift.Bool>?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "M1EnqueueCallback",
+                                "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Bool",
+                                    "printedName": "Swift.Bool",
+                                    "usr": "s:Sb"
+                                  }
+                                ],
+                                "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -4924,8 +4975,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:10metaoneSDK19NavigationStackTypeO21openEmailVerificationyACSScACmF",
-            "mangledName": "$s10metaoneSDK19NavigationStackTypeO21openEmailVerificationyACSScACmF",
+            "usr": "s:10metaoneSDK19NavigationStackTypeO21openEmailVerificationyACSS_AA17M1EnqueueCallbackCySbGSgtcACmF",
+            "mangledName": "$s10metaoneSDK19NavigationStackTypeO21openEmailVerificationyACSS_AA17M1EnqueueCallbackCySbGSgtcACmF",
             "moduleName": "metaoneSDK"
           },
           {
@@ -4957,7 +5008,10 @@
             "mangledName": "$s10metaoneSDK19NavigationStackTypeO2eeoiySbAC_ACtFZ",
             "moduleName": "metaoneSDK",
             "static": true,
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -22311,7 +22365,7 @@
           {
             "kind": "Function",
             "name": "handleConfirm2FA",
-            "printedName": "handleConfirm2FA(token:code:)",
+            "printedName": "handleConfirm2FA(token:callback:code:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -22326,14 +22380,36 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "M1EnqueueCallback",
+                    "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10metaoneSDK16VerifyEmailModelC16handleConfirm2FA5token4codeySS_SStF",
-            "mangledName": "$s10metaoneSDK16VerifyEmailModelC16handleConfirm2FA5token4codeySS_SStF",
+            "usr": "s:10metaoneSDK16VerifyEmailModelC16handleConfirm2FA5token8callback4codeySS_AA17M1EnqueueCallbackCySbGSgSStF",
+            "mangledName": "$s10metaoneSDK16VerifyEmailModelC16handleConfirm2FA5token8callback4codeySS_AA17M1EnqueueCallbackCySbGSgSStF",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
@@ -50213,21 +50289,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "M1EnqueueCallback",
-                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.AuthApiModel.AuthResponse>",
+                "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AuthResponse",
-                    "printedName": "metaoneSDK.AuthApiModel.AuthResponse",
-                    "usr": "s:10metaoneSDK12AuthApiModelO0C8ResponseV"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10metaoneSDK17MetaOneSDKManagerC5login11requestData8callbackyAA12AuthApiModelO15SSOLoginRequestV_AA17M1EnqueueCallbackCyAH0J8ResponseVGtF",
-            "mangledName": "$s10metaoneSDK17MetaOneSDKManagerC5login11requestData8callbackyAA12AuthApiModelO15SSOLoginRequestV_AA17M1EnqueueCallbackCyAH0J8ResponseVGtF",
+            "usr": "s:10metaoneSDK17MetaOneSDKManagerC5login11requestData8callbackyAA12AuthApiModelO15SSOLoginRequestV_AA17M1EnqueueCallbackCySbGtF",
+            "mangledName": "$s10metaoneSDK17MetaOneSDKManagerC5login11requestData8callbackyAA12AuthApiModelO15SSOLoginRequestV_AA17M1EnqueueCallbackCySbGtF",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
@@ -50237,7 +50313,7 @@
           {
             "kind": "Function",
             "name": "openEmailVerification",
-            "printedName": "openEmailVerification(token:)",
+            "printedName": "openEmailVerification(token:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -50249,11 +50325,33 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "M1EnqueueCallback",
+                    "printedName": "metaoneSDK.M1EnqueueCallback<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10metaoneSDK17MetaOneSDKManagerC21openEmailVerification5tokenySS_tF",
-            "mangledName": "$s10metaoneSDK17MetaOneSDKManagerC21openEmailVerification5tokenySS_tF",
+            "usr": "s:10metaoneSDK17MetaOneSDKManagerC21openEmailVerification5token8callbackySS_AA17M1EnqueueCallbackCySbGSgtF",
+            "mangledName": "$s10metaoneSDK17MetaOneSDKManagerC21openEmailVerification5token8callbackySS_AA17M1EnqueueCallbackCySbGSgtF",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
@@ -65923,6 +66021,34 @@
                 "mangledName": "$sSE"
               }
             ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SerializedError",
+            "printedName": "SerializedError",
+            "declKind": "Struct",
+            "usr": "s:10metaoneSDK12AuthApiModelO15SerializedErrorV",
+            "mangledName": "$s10metaoneSDK12AuthApiModelO15SerializedErrorV",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -68001,119 +68127,119 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "StringLiteral",
-      "offset": 377,
+      "offset": 420,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 651,
+      "offset": 762,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "StringLiteral",
-      "offset": 794,
+      "offset": 905,
       "length": 23,
       "value": "\"Confirm with 2FA Code\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "StringLiteral",
-      "offset": 1013,
+      "offset": 1124,
       "length": 10,
       "value": "\"2FA Code\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1175,
       "length": 10,
       "value": "\"2FA Code\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1146,
+      "offset": 1257,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1189,
+      "offset": 1300,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1231,
+      "offset": 1342,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1384,
       "length": 3,
       "value": "350"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1420,
+      "offset": 1569,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "FloatLiteral",
-      "offset": 1487,
+      "offset": 1636,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1537,
+      "offset": 1686,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1776,
+      "offset": 1925,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1864,
+      "offset": 2013,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "StringLiteral",
-      "offset": 2031,
+      "offset": 2180,
       "length": 10,
       "value": "\"2FA Code\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "StringLiteral",
-      "offset": 2252,
+      "offset": 2401,
       "length": 9,
       "value": "\"Confirm\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2373,
+      "offset": 2542,
       "length": 3,
       "value": "320"
     },
@@ -70241,91 +70367,112 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 2882,
+      "offset": 2939,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 2902,
+      "offset": 2959,
       "length": 17,
       "value": "\"Action canceled\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 2985,
       "length": 22,
       "value": "\"Sign action canceled\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 3025,
+      "offset": 3082,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 4318,
+      "offset": 4375,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 4334,
+      "offset": 4391,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 4376,
+      "offset": 4433,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 4396,
+      "offset": 4453,
       "length": 17,
       "value": "\"Action canceled\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 4422,
+      "offset": 4479,
       "length": 33,
       "value": "\"Reset signature action canceled\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 4501,
+      "offset": 4558,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5024,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5089,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5255,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 5536,
       "length": 20,
       "value": "\"confirmTransaction\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 5041,
+      "offset": 5606,
       "length": 13,
       "value": "\"openSharing\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/routing\/Router.swift",
       "kind": "StringLiteral",
-      "offset": 5111,
+      "offset": 5676,
       "length": 20,
       "value": "\"openResetSignature\""
     },
@@ -70689,21 +70836,28 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 621,
+      "offset": 656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 873,
+      "offset": 908,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 967,
+      "offset": 1006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/VerifyEmail\/VerifyEmailModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1118,
       "length": 5,
       "value": "false"
     },
@@ -70885,56 +71039,56 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
+      "offset": 1750,
       "length": 35,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1772,
       "length": 1,
       "value": "\"\/sso\/getcode\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 2441,
+      "offset": 2996,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 2463,
+      "offset": 3018,
       "length": 1,
       "value": "\"\/sso\/link\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 3391,
+      "offset": 4233,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 3413,
+      "offset": 4255,
       "length": 1,
       "value": "\"\/auth\/refreshtoken\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 4305,
+      "offset": 5434,
       "length": 35,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
       "kind": "StringLiteral",
-      "offset": 4327,
+      "offset": 5456,
       "length": 1,
       "value": "\"\/auth\/logout\""
     },
@@ -72402,6 +72556,13 @@
       "value": "\"PENDING_EMAIL\""
     },
     {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/AuthService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1005,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/ConfirmTransaction\/ConfirmTransactionView.swift",
       "kind": "IntegerLiteral",
       "offset": 524,
@@ -72642,7 +72803,14 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ResponseSerializer.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 366,
+      "length": 13,
+      "value": "\"x-encrypted\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ResponseSerializer.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
       "length": 13,
       "value": "\"x-encrypted\""
     },
@@ -73916,133 +74084,133 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5604,
+      "offset": 5630,
       "length": 14,
       "value": "\"UnAuthorized\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5629,
+      "offset": 5655,
       "length": 56,
       "value": "\"Authorization is a prerequisite for using this feature\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5751,
+      "offset": 5777,
       "length": 4,
       "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5768,
+      "offset": 5794,
       "length": 5,
       "value": "\"aag\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5789,
+      "offset": 5815,
       "length": 19,
       "value": "\"Need to authorize\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5944,
+      "offset": 5970,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6006,
+      "offset": 6032,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6126,
+      "offset": 6152,
       "length": 54,
       "value": "\"Session needs to be refreshed before entering wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6209,
+      "offset": 6235,
       "length": 17,
       "value": "\"Session Expired\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6237,
+      "offset": 6263,
       "length": 54,
       "value": "\"Session needs to be refreshed before entering wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6357,
+      "offset": 6383,
       "length": 4,
       "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6374,
+      "offset": 6400,
       "length": 5,
       "value": "\"aag\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6395,
+      "offset": 6421,
       "length": 54,
       "value": "\"Session needs to be refreshed before entering wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6636,
+      "offset": 6662,
       "length": 4,
       "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6653,
+      "offset": 6679,
       "length": 5,
       "value": "\"aag\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6674,
+      "offset": 6700,
       "length": 41,
       "value": "\"Invalid session data. Trying to refresh\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6948,
+      "offset": 6974,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7296,
+      "offset": 7322,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7849,
+      "offset": 7875,
       "length": 1,
       "value": "0"
     },
@@ -81973,14 +82141,14 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/MainContentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3095,
+      "offset": 3125,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/views\/MainContentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3099,
+      "offset": 3129,
       "length": 1,
       "value": "0"
     },
