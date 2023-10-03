@@ -108,6 +108,7 @@ public struct ErrorResponse : Swift.Codable {
   public var data: metaoneSDK.ErrorResponseData?
   public static func fromAPIError(_ errorBody: Foundation.Data?, responseCode: Swift.Int?) -> metaoneSDK.ErrorResponse
   public static func unknownError() -> metaoneSDK.ErrorResponse
+  public func toError() -> Foundation.NSError
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -532,6 +533,16 @@ public struct M1Button : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK8M1ButtonV4bodyQrvp", 0) __
 }
+public struct SDKConfig {
+  public var SDK_VERSION: Swift.String
+  public var SDK_REALM: Swift.String
+  public var SDK_ENVIRONMENT: Swift.String
+  public var SDK_KEY: Swift.String
+  public var SDK_CONFIG_URL: Swift.String
+  public var SDK_PUB_PHRASE: Swift.String
+  public var SDK_API_CLIENT_REFERENCE: Swift.String
+  public init(SDK_VERSION: Swift.String, SDK_REALM: Swift.String, SDK_ENVIRONMENT: Swift.String, SDK_KEY: Swift.String, SDK_CONFIG_URL: Swift.String, SDK_PUB_PHRASE: Swift.String, SDK_API_CLIENT_REFERENCE: Swift.String)
+}
 @_hasMissingDesignatedInitializers public class ConfigProvider {
   public static var SDK_VERSION: Swift.String
   public static var SDK_REALM: Swift.String
@@ -552,6 +563,7 @@ public struct M1Button : SwiftUI.View {
   public static var WEB_SDK_URL: Swift.String {
     get
   }
+  public static func setConfig(with config: metaoneSDK.SDKConfig)
   @objc deinit
 }
 @_Concurrency.MainActor(unsafe) public struct FirstWordPurpleTitle : SwiftUI.View {
@@ -1266,7 +1278,7 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   final public let uiManager: metaoneSDK.MetaOneSDKUIManager
   public init()
   public func setup(completion: @escaping () -> Swift.Void)
-  public func initialize(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
+  public func initialize(sdkConfig: metaoneSDK.SDKConfig? = nil, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func setupConfig(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.AppConfig.Config>? = nil)
   public func setupUserData()
   public func refreshSession(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)

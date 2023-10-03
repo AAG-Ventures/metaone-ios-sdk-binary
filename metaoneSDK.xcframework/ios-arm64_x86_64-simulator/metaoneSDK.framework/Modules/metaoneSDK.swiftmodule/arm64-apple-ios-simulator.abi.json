@@ -2889,6 +2889,27 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "toError",
+            "printedName": "toError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK13ErrorResponseV02toC0So7NSErrorCyF",
+            "mangledName": "$s10metaoneSDK13ErrorResponseV02toC0So7NSErrorCyF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -23318,6 +23339,678 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SDKConfig",
+        "printedName": "SDKConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SDK_VERSION",
+            "printedName": "SDK_VERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK9SDKConfigV0B8_VERSIONSSvp",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B8_VERSIONSSvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B8_VERSIONSSvg",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B8_VERSIONSSvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B8_VERSIONSSvs",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B8_VERSIONSSvs",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B8_VERSIONSSvM",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B8_VERSIONSSvM",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SDK_REALM",
+            "printedName": "SDK_REALM",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK9SDKConfigV0B6_REALMSSvp",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B6_REALMSSvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B6_REALMSSvg",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B6_REALMSSvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B6_REALMSSvs",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B6_REALMSSvs",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B6_REALMSSvM",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B6_REALMSSvM",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SDK_ENVIRONMENT",
+            "printedName": "SDK_ENVIRONMENT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvp",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvg",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvs",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvs",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvM",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B12_ENVIRONMENTSSvM",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SDK_KEY",
+            "printedName": "SDK_KEY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK9SDKConfigV0B4_KEYSSvp",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B4_KEYSSvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B4_KEYSSvg",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B4_KEYSSvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B4_KEYSSvs",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B4_KEYSSvs",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B4_KEYSSvM",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B4_KEYSSvM",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SDK_CONFIG_URL",
+            "printedName": "SDK_CONFIG_URL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvp",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvg",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvs",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvs",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvM",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B11_CONFIG_URLSSvM",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SDK_PUB_PHRASE",
+            "printedName": "SDK_PUB_PHRASE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvp",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvg",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvs",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvs",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvM",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B11_PUB_PHRASESSvM",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SDK_API_CLIENT_REFERENCE",
+            "printedName": "SDK_API_CLIENT_REFERENCE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvp",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvg",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvg",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvs",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvs",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvM",
+                "mangledName": "$s10metaoneSDK9SDKConfigV0B21_API_CLIENT_REFERENCESSvM",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(SDK_VERSION:SDK_REALM:SDK_ENVIRONMENT:SDK_KEY:SDK_CONFIG_URL:SDK_PUB_PHRASE:SDK_API_CLIENT_REFERENCE:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfig",
+                "printedName": "metaoneSDK.SDKConfig",
+                "usr": "s:10metaoneSDK9SDKConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10metaoneSDK9SDKConfigV0B8_VERSION0B6_REALM0B12_ENVIRONMENT0B4_KEY0B11_CONFIG_URL0B11_PUB_PHRASE0B21_API_CLIENT_REFERENCEACSS_S6Stcfc",
+            "mangledName": "$s10metaoneSDK9SDKConfigV0B8_VERSION0B6_REALM0B12_ENVIRONMENT0B4_KEY0B11_CONFIG_URL0B11_PUB_PHRASE0B21_API_CLIENT_REFERENCEACSS_S6Stcfc",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10metaoneSDK9SDKConfigV",
+        "mangledName": "$s10metaoneSDK9SDKConfigV",
+        "moduleName": "metaoneSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ConfigProvider",
         "printedName": "ConfigProvider",
         "children": [
@@ -24204,6 +24897,34 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "setConfig",
+            "printedName": "setConfig(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKConfig",
+                "printedName": "metaoneSDK.SDKConfig",
+                "usr": "s:10metaoneSDK9SDKConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK14ConfigProviderC03setC04withyAA9SDKConfigV_tFZ",
+            "mangledName": "$s10metaoneSDK14ConfigProviderC03setC04withyAA9SDKConfigV_tFZ",
+            "moduleName": "metaoneSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -50078,12 +50799,27 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(callback:)",
+            "printedName": "initialize(sdkConfig:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "metaoneSDK.SDKConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKConfig",
+                    "printedName": "metaoneSDK.SDKConfig",
+                    "usr": "s:10metaoneSDK9SDKConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -50110,8 +50846,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10metaoneSDK17MetaOneSDKManagerC10initialize8callbackyAA17M1EnqueueCallbackCySbGSg_tF",
-            "mangledName": "$s10metaoneSDK17MetaOneSDKManagerC10initialize8callbackyAA17M1EnqueueCallbackCySbGSg_tF",
+            "usr": "s:10metaoneSDK17MetaOneSDKManagerC10initialize9sdkConfig8callbackyAA9SDKConfigVSg_AA17M1EnqueueCallbackCySbGSgtF",
+            "mangledName": "$s10metaoneSDK17MetaOneSDKManagerC10initialize9sdkConfig8callbackyAA9SDKConfigVSg_AA17M1EnqueueCallbackCySbGSgtF",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
@@ -69359,238 +70095,238 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3985,
+      "offset": 3992,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 4257,
+      "offset": 4264,
       "length": 11,
       "value": "\"errorData\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 4306,
+      "offset": 4313,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 4726,
+      "offset": 4733,
       "length": 11,
       "value": "\"errorData\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 5141,
+      "offset": 5148,
       "length": 15,
       "value": "\"unknown.error\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 5425,
+      "offset": 5432,
       "length": 15,
       "value": "\"unknown.error\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 5828,
+      "offset": 5835,
       "length": 7,
       "value": "\"titit\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 5961,
+      "offset": 5968,
       "length": 15,
       "value": "\"unknown.error\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 5989,
+      "offset": 5996,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 6007,
+      "offset": 6014,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 6016,
+      "offset": 6023,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 7197,
+      "offset": 7204,
       "length": 3,
       "value": "\"#\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 7208,
+      "offset": 7215,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7247,
+      "offset": 7254,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7357,
+      "offset": 7364,
       "length": 8,
       "value": "0xFF0000"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7370,
+      "offset": 7377,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "FloatLiteral",
-      "offset": 7376,
+      "offset": 7383,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7417,
+      "offset": 7424,
       "length": 8,
       "value": "0x00FF00"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7430,
+      "offset": 7437,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "FloatLiteral",
-      "offset": 7435,
+      "offset": 7442,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7474,
+      "offset": 7481,
       "length": 8,
       "value": "0x0000FF"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "FloatLiteral",
-      "offset": 7486,
+      "offset": 7493,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "FloatLiteral",
-      "offset": 7567,
+      "offset": 7574,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 7768,
+      "offset": 7775,
       "length": 3,
       "value": "\"#\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "StringLiteral",
-      "offset": 7779,
+      "offset": 7786,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7818,
+      "offset": 7825,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7927,
+      "offset": 7934,
       "length": 8,
       "value": "0xFF0000"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7940,
+      "offset": 7947,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "FloatLiteral",
-      "offset": 7946,
+      "offset": 7953,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7986,
+      "offset": 7993,
       "length": 8,
       "value": "0x00FF00"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7999,
+      "offset": 8006,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "FloatLiteral",
-      "offset": 8004,
+      "offset": 8011,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8042,
+      "offset": 8049,
       "length": 8,
       "value": "0x0000FF"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/CommonModel.swift",
       "kind": "FloatLiteral",
-      "offset": 8054,
+      "offset": 8061,
       "length": 5,
       "value": "255.0"
     },
@@ -71494,357 +72230,357 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 93,
+      "offset": 946,
       "length": 7,
       "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 163,
+      "offset": 1016,
       "length": 11,
       "value": "\"SDK_REALM\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 179,
+      "offset": 1032,
       "length": 7,
       "value": "\"SHARE\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 255,
+      "offset": 1108,
       "length": 17,
       "value": "\"SDK_ENVIRONMENT\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 277,
+      "offset": 1130,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 1193,
       "length": 9,
       "value": "\"SDK_KEY\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 1207,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 1277,
       "length": 16,
       "value": "\"SDK_CONFIG_URL\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 1298,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 1368,
       "length": 16,
       "value": "\"SDK_PUB_PHRASE\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 1389,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 1469,
       "length": 26,
       "value": "\"SDK_API_CLIENT_REFERENCE\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 647,
+      "offset": 1500,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 753,
+      "offset": 1606,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 779,
+      "offset": 1632,
       "length": 57,
       "value": "\"https:\/\/static.aag.ventures\/metaone\/sdkconfig-test.json\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 850,
+      "offset": 1703,
       "length": 6,
       "value": "\"test\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 877,
+      "offset": 1730,
       "length": 57,
       "value": "\"https:\/\/static.aag.ventures\/metaone\/sdkconfig-test.json\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 948,
+      "offset": 1801,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 1829,
       "length": 58,
       "value": "\"https:\/\/static.aag.ventures\/metaone\/sdkconfig-stage.json\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1901,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1928,
       "length": 57,
       "value": "\"https:\/\/static.aag.ventures\/metaone\/sdkconfig-prod.json\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1169,
+      "offset": 2022,
       "length": 57,
       "value": "\"https:\/\/static.aag.ventures\/metaone\/sdkconfig-test.json\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 2192,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 2218,
       "length": 38,
       "value": "\"https:\/\/ws-test.aag.ventures\/metaone\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 2270,
       "length": 6,
       "value": "\"test\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1444,
+      "offset": 2297,
       "length": 38,
       "value": "\"https:\/\/ws-test.aag.ventures\/metaone\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1496,
+      "offset": 2349,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1524,
+      "offset": 2377,
       "length": 47,
       "value": "\"https:\/\/ws-stage.aag.ventures\/metaone-mainnet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 2438,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1612,
+      "offset": 2465,
       "length": 33,
       "value": "\"https:\/\/ws.aag.ventures\/metaone\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1682,
+      "offset": 2535,
       "length": 38,
       "value": "\"https:\/\/ws-test.aag.ventures\/metaone\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1831,
+      "offset": 2684,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 2710,
       "length": 49,
       "value": "\"https:\/\/cybavo-test-testnet.aag.ventures\/v1\/mw\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 2773,
       "length": 6,
       "value": "\"test\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1947,
+      "offset": 2800,
       "length": 49,
       "value": "\"https:\/\/cybavo-test-testnet.aag.ventures\/v1\/mw\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2863,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2891,
       "length": 50,
       "value": "\"https:\/\/cybavo-stage-mainnet.aag.ventures\/v1\/mw\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 2955,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2129,
+      "offset": 2982,
       "length": 44,
       "value": "\"https:\/\/cybavo-mainnet.aag.ventures\/v1\/mw\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2210,
+      "offset": 3063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2323,
+      "offset": 3176,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 3201,
       "length": 77,
       "value": "\"https:\/\/wallet-web-client-stable-dev-1008e8f284a2.herokuapp.com\/spp\/wallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2439,
+      "offset": 3292,
       "length": 6,
       "value": "\"test\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2466,
+      "offset": 3319,
       "length": 78,
       "value": "\"https:\/\/wallet-web-client-stable-test-440c3dca0242.herokuapp.com\/spp\/wallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 3411,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2586,
+      "offset": 3439,
       "length": 79,
       "value": "\"https:\/\/wallet-web-client-stable-stage-4585b4c902e4.herokuapp.com\/spp\/wallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2679,
+      "offset": 3532,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2706,
+      "offset": 3559,
       "length": 78,
       "value": "\"https:\/\/wallet-web-client-stable-prod-4745f9d19b47.herokuapp.com\/spp\/wallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2821,
+      "offset": 3674,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2975,
+      "offset": 4219,
       "length": 18,
       "value": "\"metaoneSDKConfig\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
-      "offset": 3003,
+      "offset": 4247,
       "length": 7,
       "value": "\"plist\""
     },
@@ -74077,140 +74813,140 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4423,
+      "offset": 4545,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5630,
+      "offset": 5752,
       "length": 14,
       "value": "\"UnAuthorized\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5655,
+      "offset": 5777,
       "length": 56,
       "value": "\"Authorization is a prerequisite for using this feature\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5777,
+      "offset": 5899,
       "length": 4,
       "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5794,
+      "offset": 5916,
       "length": 5,
       "value": "\"aag\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5815,
+      "offset": 5937,
       "length": 19,
       "value": "\"Need to authorize\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5970,
+      "offset": 6092,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6032,
+      "offset": 6154,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6152,
+      "offset": 6274,
       "length": 54,
       "value": "\"Session needs to be refreshed before entering wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6235,
+      "offset": 6357,
       "length": 17,
       "value": "\"Session Expired\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6263,
+      "offset": 6385,
       "length": 54,
       "value": "\"Session needs to be refreshed before entering wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6383,
+      "offset": 6505,
       "length": 4,
       "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6400,
+      "offset": 6522,
       "length": 5,
       "value": "\"aag\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6421,
+      "offset": 6543,
       "length": 54,
       "value": "\"Session needs to be refreshed before entering wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6662,
+      "offset": 6784,
       "length": 4,
       "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6679,
+      "offset": 6801,
       "length": 5,
       "value": "\"aag\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6700,
+      "offset": 6822,
       "length": 41,
       "value": "\"Invalid session data. Trying to refresh\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6974,
+      "offset": 7096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7322,
+      "offset": 7444,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/managers\/MetaOneSDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7875,
+      "offset": 7997,
       "length": 1,
       "value": "0"
     },
