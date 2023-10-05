@@ -139,7 +139,7 @@ public enum User {
     public let name: Swift.String
     public let email: Swift.String
     public let avatar: Swift.String?
-    public let update: Swift.Int?
+    public let update: Swift.Int64?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -608,8 +608,9 @@ public enum UserApiModel {
   }
   public struct GetProfileResponse : Swift.Codable {
     public let profile: metaoneSDK.User.Profile
-    public let ackTnC: Swift.Int
-    public let ackPrivacy: Swift.Int
+    public let ackTnC: Swift.Int64?
+    public let ackPrivacy: Swift.Int64?
+    public let hasPwd: Swift.Bool?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
