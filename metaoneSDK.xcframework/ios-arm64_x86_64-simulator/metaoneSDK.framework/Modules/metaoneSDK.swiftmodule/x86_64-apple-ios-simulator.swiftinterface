@@ -575,24 +575,7 @@ public struct SDKConfig {
 public enum ContactApiModel {
   public struct ContactsResponse {
   }
-  public struct ContactWalletAddress : Swift.Codable {
-    public var id: Swift.String
-    public var name: Swift.String
-    public var address: Swift.String
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
-  public struct Contact : Swift.Codable {
-    public var id: Swift.String?
-    public var name: Swift.String
-    public var photo: Swift.String?
-    public var wallets: [metaoneSDK.ContactApiModel.ContactWalletAddress]
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
-  public struct ContactResponse : Swift.Codable {
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
+  public struct ContactResponse {
   }
   public struct ContactData {
   }
