@@ -69826,434 +69826,434 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5991,
+      "offset": 5974,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6708,
+      "offset": 6691,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8458,
+      "offset": 8441,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8691,
+      "offset": 8665,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 9121,
+      "offset": 9095,
       "length": 5,
       "value": "\"169\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 9207,
+      "offset": 9181,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 10098,
+      "offset": 10063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Dictionary",
-      "offset": 11109,
+      "offset": 11074,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Array",
-      "offset": 11436,
+      "offset": 11401,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Array",
-      "offset": 11482,
+      "offset": 11447,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 11510,
+      "offset": 11475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 12009,
+      "offset": 11974,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Array",
-      "offset": 12141,
+      "offset": 12106,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 12554,
+      "offset": 12519,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 12627,
+      "offset": 12592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 12677,
+      "offset": 12642,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13013,
+      "offset": 12978,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13138,
+      "offset": 13103,
       "length": 53,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13158,
+      "offset": 13123,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13161,
+      "offset": 13126,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13186,
+      "offset": 13151,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13189,
+      "offset": 13154,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13328,
+      "offset": 13293,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13386,
+      "offset": 13351,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 13644,
+      "offset": 13609,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 13704,
+      "offset": 13669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 14587,
+      "offset": 14552,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 15307,
+      "offset": 15272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "BooleanLiteral",
-      "offset": 15474,
+      "offset": 15439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 15680,
+      "offset": 15645,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "BooleanLiteral",
-      "offset": 16605,
+      "offset": 16506,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "BooleanLiteral",
-      "offset": 16625,
+      "offset": 16526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 17013,
+      "offset": 16914,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 18433,
+      "offset": 18334,
       "length": 10,
       "value": "\"walletId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 18468,
+      "offset": 18369,
       "length": 11,
       "value": "\"toAddress\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 18505,
+      "offset": 18406,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 18536,
+      "offset": 18437,
       "length": 16,
       "value": "\"transactionFee\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 18583,
+      "offset": 18484,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Dictionary",
-      "offset": 18888,
+      "offset": 18789,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 20078,
+      "offset": 19979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Dictionary",
-      "offset": 22968,
+      "offset": 22869,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Array",
-      "offset": 23575,
+      "offset": 23476,
       "length": 5,
       "value": "[501]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 23632,
+      "offset": 23533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 23685,
+      "offset": 23586,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 23875,
+      "offset": 23776,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 23951,
+      "offset": 23852,
       "length": 6,
       "value": "\"test\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 24028,
+      "offset": 23929,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 24106,
+      "offset": 24007,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Array",
-      "offset": 24529,
+      "offset": 24430,
       "length": 8,
       "value": "[\"1023\"]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 26228,
+      "offset": 26129,
       "length": 86,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 26249,
+      "offset": 26150,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 26313,
+      "offset": 26214,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 26475,
+      "offset": 26376,
       "length": 3,
       "value": "194"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 26490,
+      "offset": 26391,
       "length": 14,
       "value": "\"account_name\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 26506,
+      "offset": 26407,
       "length": 72,
       "value": "\"wallet-\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 26577,
+      "offset": 26478,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "Dictionary",
-      "offset": 26590,
+      "offset": 26491,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 29243,
+      "offset": 29144,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 29394,
+      "offset": 29295,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 29916,
+      "offset": 29817,
       "length": 24,
       "value": "\"failed.wallet.creation\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "IntegerLiteral",
-      "offset": 29972,
+      "offset": 29873,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/services\/WalletService.swift",
       "kind": "StringLiteral",
-      "offset": 30094,
+      "offset": 29995,
       "length": 2,
       "value": "\"\""
     },
@@ -82104,147 +82104,147 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1341,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 1375,
+      "offset": 1366,
       "length": 1,
       "value": "\"\/wallet\/get-user-wallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1433,
       "length": 6,
       "value": "\"mode\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 2353,
+      "offset": 2344,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2369,
       "length": 1,
       "value": "\"\/wallet\/get-user-wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 2444,
+      "offset": 2435,
       "length": 6,
       "value": "\"mode\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 2518,
+      "offset": 2509,
       "length": 10,
       "value": "\"walletId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 3436,
+      "offset": 3427,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 3461,
+      "offset": 3452,
       "length": 1,
       "value": "\"\/wallet\/get-user-wallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 3528,
+      "offset": 3519,
       "length": 6,
       "value": "\"mode\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 4448,
+      "offset": 4439,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 4473,
+      "offset": 4464,
       "length": 1,
       "value": "\"\/wallet\/get-user-wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 4539,
+      "offset": 4530,
       "length": 6,
       "value": "\"mode\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 4601,
+      "offset": 4592,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 5553,
+      "offset": 5544,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 5578,
+      "offset": 5569,
       "length": 1,
       "value": "\"\/wallet\/query-user-nfts\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "Dictionary",
-      "offset": 5652,
+      "offset": 5643,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 5675,
+      "offset": 5666,
       "length": 8,
       "value": "\"wallet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 5715,
+      "offset": 5706,
       "length": 3,
       "value": "\"q\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 5753,
+      "offset": 5744,
       "length": 7,
       "value": "\"limit\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/WalletsClient.swift",
       "kind": "StringLiteral",
-      "offset": 5789,
+      "offset": 5780,
       "length": 8,
       "value": "\"offset\""
     },
