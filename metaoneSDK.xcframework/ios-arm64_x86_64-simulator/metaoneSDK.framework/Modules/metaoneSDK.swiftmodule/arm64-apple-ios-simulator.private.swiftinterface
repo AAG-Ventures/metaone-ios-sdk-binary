@@ -14,12 +14,14 @@ import CryptoSwift
 import Foundation
 import KeychainSwift
 import Lottie
+import ObjectMapper
 import Swift
 import SwiftUI
 import SwiftyRSA
 import SystemConfiguration
 import UIKit
 import WKWebViewJavascriptBridge
+import Web3
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -80,6 +82,23 @@ public enum SessionActivityStatus : Swift.String, Swift.Codable {
   case active
   case unauthorised
   case expired
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum TabType : Swift.String {
+  case all
+  case wallets
+  case currencies
+  case nfts
+  case transactions
+  case overview
+  case basic
+  case advanced
+  case addressBook
+  case myWallets
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -159,6 +178,7 @@ public enum NavigationStackType {
   case createSignature
   case openWallet
   case openEmailVerification(Swift.String, metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
+  case confirmTransaction(Swift.String, (() -> Swift.Void)?, metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
 }
 extension metaoneSDK.NavigationStackType : Swift.Equatable {
   public static func == (lhs: metaoneSDK.NavigationStackType, rhs: metaoneSDK.NavigationStackType) -> Swift.Bool
@@ -295,7 +315,12 @@ public enum Wallets {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct WalletToken : Swift.Codable {
+  public struct WalletToken : Swift.Codable, Swift.Equatable, Swift.Hashable, Swift.Identifiable {
+    public var id: Swift.String {
+      get
+    }
+    public static func == (lhs: metaoneSDK.Wallets.WalletToken, rhs: metaoneSDK.Wallets.WalletToken) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var currencyName: Swift.String?
     public var currencySymbol: Swift.String?
     public var tokenDecimals: Swift.String?
@@ -306,10 +331,19 @@ public enum Wallets {
     public var balance: Swift.String
     public var contractAddress: Swift.String
     public var image: metaoneSDK.Wallets.Images?
+    public typealias ID = Swift.String
     public func encode(to encoder: any Swift.Encoder) throws
+    public var hashValue: Swift.Int {
+      get
+    }
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct UserWallet : Swift.Codable {
+  public struct UserWallet : Swift.Codable, Swift.Equatable, Swift.Hashable, Swift.Identifiable {
+    public var id: Swift.String {
+      get
+    }
+    public static func == (lhs: metaoneSDK.Wallets.UserWallet, rhs: metaoneSDK.Wallets.UserWallet) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var _id: Swift.String
     public var name: Swift.String
     public var address: Swift.String
@@ -332,7 +366,11 @@ public enum Wallets {
     public var type: Swift.String?
     public var nftBalance: Swift.Int?
     public var fiat: Swift.Int?
+    public typealias ID = Swift.String
     public func encode(to encoder: any Swift.Encoder) throws
+    public var hashValue: Swift.Int {
+      get
+    }
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct CurrencyWallet : Swift.Codable {
@@ -554,6 +592,9 @@ public struct SDKConfig {
   public static var SDK_BASE_CONFIG_URL: Swift.String {
     get
   }
+  public static var MDM_BASE_URL: Swift.String {
+    get
+  }
   public static var API_BASE_URL: Swift.String {
     get
   }
@@ -596,6 +637,8 @@ public enum UserApiModel {
     public let hasPwd: Swift.Bool?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct SerializedError : Swift.Error {
   }
 }
 public enum Transactions {
@@ -828,9 +871,15 @@ public enum Transactions {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
+  public struct TransactionTxData {
+  }
   public struct UnsignedRpcTransactionData : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct TransactionParamsWallet {
+  }
+  public struct TransactionSignParams {
   }
   public struct AggregatedData : Swift.Codable {
     public let contractAddress: Swift.String
@@ -912,6 +961,7 @@ public enum Transactions {
     public let swapTxnContext: metaoneSDK.Transactions.SwapTxnContext?
     public let alchemyQueryOrderData: metaoneSDK.Transactions.AlchemyQueryOrderData?
     public let simplexEvent: metaoneSDK.Transactions.SimplexEvent?
+    public var swapId: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -953,6 +1003,11 @@ public enum Transactions {
     public init(from decoder: any Swift.Decoder) throws
   }
 }
+public struct TransactionDestinationValues {
+  public let address: Swift.String
+  public let memo: Swift.String?
+  public let personalNote: Swift.String?
+}
 @_Concurrency.MainActor(unsafe) public struct BulletPointView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(bulletPointViewModel: metaoneSDK.BulletPointViewModel)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -975,6 +1030,10 @@ public enum TransactionAPIModel {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
+  public struct PendingTransactionData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
   public struct GasPriceResponse : Swift.Decodable {
     public let data: metaoneSDK.TransactionAPIModel.GetTransactionFeeResult
     public let responseCode: Swift.String
@@ -982,16 +1041,18 @@ public enum TransactionAPIModel {
     public let error: Swift.String?
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct GetTransactionFeeResult : Swift.Decodable {
-    public let high: metaoneSDK.TransactionAPIModel.Fee
-    public let medium: metaoneSDK.TransactionAPIModel.Fee
-    public let low: metaoneSDK.TransactionAPIModel.Fee
+  public struct GetTransactionFeeResult : Swift.Codable {
+    public var high: metaoneSDK.TransactionAPIModel.Fee?
+    public var medium: metaoneSDK.TransactionAPIModel.Fee?
+    public var low: metaoneSDK.TransactionAPIModel.Fee?
     public let withdrawMin: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct Fee : Swift.Decodable {
-    public let amount: Swift.String
+  public struct Fee : Swift.Codable {
+    public var amount: Swift.String
     public let description: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct GasLimitRequest : Swift.Codable {
@@ -1018,10 +1079,7 @@ public enum TransactionAPIModel {
       get
     }
   }
-  public struct PendingTransactionData {
-  }
-  public struct RecordPrendingTransactionRequest {
-    public func toAPIFormat() -> [Swift.String : Any]
+  public struct SerializedError : Swift.Error {
   }
 }
 @_hasMissingDesignatedInitializers public class ConfirmSignaturePinViewModel : Foundation.ObservableObject {
@@ -1076,6 +1134,11 @@ public struct UserWalletResponse : Swift.Codable {
 }
 public struct UserCurrenciesResponse : Swift.Codable {
   public let currencies: [metaoneSDK.Wallets.UserCurrency]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GetConvertedAddressResponse : Swift.Codable {
+  public let result: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -1195,7 +1258,7 @@ public struct SyncWalletsResponse : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_Concurrency.MainActor(unsafe) public struct ConfirmTransactionView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(confirmTransactionModel: metaoneSDK.ConfirmTransactionModel, signDataMessage: Swift.String)
+  @_Concurrency.MainActor(unsafe) public init(confirmTransactionModel: metaoneSDK.ConfirmTransactionModel, signDataMessage: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -1227,6 +1290,7 @@ public struct SyncWalletsResponse : Swift.Codable {
   public func objectWillChange()
   public func getCurrentColorScheme() -> metaoneSDK.AppConfig.ColorsScheme
   public func setCurrentColorScheme(colorScheme: metaoneSDK.AppConfig.ColorsScheme)
+  public func setCustomSignatureIntroView<View>(_ view: View) where View : SwiftUI.View
   public func getCurrentLanguage() -> metaoneSDK.SupportedLanguage
   public func setCurrentLanguage(locale: metaoneSDK.SupportedLanguage)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
@@ -1270,6 +1334,8 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func hideSDKActivity()
   public func login(requestData: metaoneSDK.AuthApiModel.SSOLoginRequest, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>)
   public func openEmailVerification(token: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
+  public func openConfirmTransaction(data: Swift.String, closeAction: (() -> Swift.Void)?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
+  public func sendTransaction(wallet: metaoneSDK.Wallets.UserWallet, address: Swift.String, amount: Swift.String, asset: metaoneSDK.Wallets.WalletToken?, memo: Swift.String?, personalNote: Swift.String?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func requestCameraPermission()
   public func openWallet() -> metaoneSDK.ErrorResponse?
   public func createSigning(data: Swift.String)
@@ -1281,6 +1347,10 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
 }
 public enum AppConfig {
   public struct PlatformConfig : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct NFTCampaign : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -1312,11 +1382,19 @@ public enum AppConfig {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
+  public struct MappedBip44DataType : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
   public struct CurrencyData : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct Config : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct SDKLocalization : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -1392,7 +1470,7 @@ public enum AppConfig {
   public func hideSheet()
   public func hideLoading()
   #if compiler(>=5.3) && $AsyncAwait
-  public func confirmTransaction(pin: Swift.String, message: Swift.String) async
+  public func confirmTransaction(pin: Swift.String, message: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?) async
   #endif
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
@@ -1462,10 +1540,6 @@ public enum Signing {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct ReceivedEvent : Swift.Codable {
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
   public struct ValidatePinData : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
@@ -1487,6 +1561,10 @@ public enum Signing {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct CurrencyTransactionData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct SwapTokensTransactionEventResponse : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -1652,6 +1730,54 @@ public struct GlobalMessageView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK17GlobalMessageViewV4bodyQrvp", 0) __
 }
+public enum SwapApiModel {
+  public struct BinancePrepareSwapResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct BinanceExecuteSwapRequestResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct SwapTokensParams : Swift.Codable {
+    public struct SwapAssetType : Swift.Codable {
+      public func encode(to encoder: any Swift.Encoder) throws
+      public init(from decoder: any Swift.Decoder) throws
+    }
+    public struct SwapQuote : Swift.Codable {
+      public struct Data : Swift.Codable {
+        public func encode(to encoder: any Swift.Encoder) throws
+        public init(from decoder: any Swift.Decoder) throws
+      }
+      public struct Fee : Swift.Codable {
+        public func encode(to encoder: any Swift.Encoder) throws
+        public init(from decoder: any Swift.Decoder) throws
+      }
+      public struct Quote : Swift.Codable {
+        public func encode(to encoder: any Swift.Encoder) throws
+        public init(from decoder: any Swift.Decoder) throws
+      }
+      public struct ChainSwaps : Swift.Codable {
+        public func encode(to encoder: any Swift.Encoder) throws
+        public init(from decoder: any Swift.Decoder) throws
+      }
+      public struct TokenInfo : Swift.Codable {
+        public func encode(to encoder: any Swift.Encoder) throws
+        public init(from decoder: any Swift.Decoder) throws
+      }
+      public func encode(to encoder: any Swift.Encoder) throws
+      public init(from decoder: any Swift.Decoder) throws
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct BinanceExecuteSwapParams : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+public enum UtilsApiModel {
+}
 @_Concurrency.MainActor(unsafe) public struct ConfirmSignaturePinView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
@@ -1766,13 +1892,15 @@ public enum SupportedLanguage : Swift.String, Swift.CaseIterable {
     get
   }
 }
-public func Localized(_ key: Swift.String) -> Swift.String
 public enum APIError : Swift.Error {
   public static func isLinkRequired(code: Swift.String?, responseCode: Swift.String) -> Swift.Bool
 }
 extension metaoneSDK.SessionActivityStatus : Swift.Equatable {}
 extension metaoneSDK.SessionActivityStatus : Swift.Hashable {}
 extension metaoneSDK.SessionActivityStatus : Swift.RawRepresentable {}
+extension metaoneSDK.TabType : Swift.Equatable {}
+extension metaoneSDK.TabType : Swift.Hashable {}
+extension metaoneSDK.TabType : Swift.RawRepresentable {}
 extension metaoneSDK.Wallets.WalletsTypes : Swift.Equatable {}
 extension metaoneSDK.Wallets.WalletsTypes : Swift.Hashable {}
 extension metaoneSDK.Wallets.WalletsTypes : Swift.RawRepresentable {}
