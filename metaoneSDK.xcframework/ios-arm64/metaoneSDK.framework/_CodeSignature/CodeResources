@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		a9s7q4f3S3lEz05wMS6S3wlBazg=
+		BijApNM2aQ4zR9uxQpEBuysBQ2g=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+la+KuGqIXspbncRCszNmlFfk4s=
+		gwCWKPrJXtWirYb9vt7LFdIwpEU=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		sRWEFEkxyfmgBUm3ZItYjKvUrOU=
+		zL/hYsFUApjAr7qWpObpVrMwp38=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		sRWEFEkxyfmgBUm3ZItYjKvUrOU=
+		zL/hYsFUApjAr7qWpObpVrMwp38=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		j3uuQ7Sa29gCpWx/FgcdYNakmJc=
+		tDJahoh5PayzLL3sbaBP8G3aqGc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -184,21 +184,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vdied3l1R75fqxiLt/kt5FH+yjwsMm6Jli4nP/gDpGc=
+			uSQisSHbcsoh5QzHAgpLe0iwXVWIFJ5XR0Z2hCejjjQ=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MNRrWVky7kPp28OUfybn1WnR5XEJq2BS5cRLv2bqUSw=
+			1XUPj1d7T0UnIFO23EOFV8htdNMH6+SkCja1AvckLXE=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PaRaSZWoTVnh7ytGvggf3lQjFaI9heEBj2whfgQFGnE=
+			+1F/pqGSmL3bibJ61IAhvNMXWeeawcrSVkRNqIUUyjo=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -212,14 +212,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PaRaSZWoTVnh7ytGvggf3lQjFaI9heEBj2whfgQFGnE=
+			+1F/pqGSmL3bibJ61IAhvNMXWeeawcrSVkRNqIUUyjo=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMNOaiVohp/lt2QVBDDVvFZjn2nxv3t5CLE+J4lGcPw=
+			DVc4CKqiVzSsqD6p0bbG1SM0Wx/DT/GTxn9IlMhvses=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

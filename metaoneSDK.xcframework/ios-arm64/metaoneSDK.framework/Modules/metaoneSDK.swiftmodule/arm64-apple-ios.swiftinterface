@@ -1336,6 +1336,7 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func openEmailVerification(token: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
   public func openConfirmTransaction(data: Swift.String, closeAction: (() -> Swift.Void)?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
   public func sendTransaction(wallet: metaoneSDK.Wallets.UserWallet, address: Swift.String, amount: Swift.String, asset: metaoneSDK.Wallets.WalletToken?, memo: Swift.String?, personalNote: Swift.String?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
+  public func isSignatureSet() -> Swift.Bool
   public func requestCameraPermission()
   public func openWallet() -> metaoneSDK.ErrorResponse?
   public func createSigning(data: Swift.String)
