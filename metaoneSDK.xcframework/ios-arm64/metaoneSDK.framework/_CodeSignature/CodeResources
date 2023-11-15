@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LIv1uKnLlgxsBNH/FlLUtZw2ye8=
+		H283RL48YS11ubTotS6eacyj0jc=
 		</data>
 		<key>Headers/metaoneSDK-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		BijApNM2aQ4zR9uxQpEBuysBQ2g=
+		lhkwCfugV0Efh0jMlgV2VEGJHhU=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gwCWKPrJXtWirYb9vt7LFdIwpEU=
+		mnI1BHOYksonAyyNWYZ7S7QRdOg=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -163,7 +163,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ad47rk8g/LOF7R1PmZ2piK5bkUug9SYTAPFoipl3MUI=
+			c9RwlyyFtRmdsRPJsd9r0s7HFtQhSwNz2P0nBistWzY=
 			</data>
 		</dict>
 		<key>Headers/metaoneSDK-Swift.h</key>
@@ -184,14 +184,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uSQisSHbcsoh5QzHAgpLe0iwXVWIFJ5XR0Z2hCejjjQ=
+			jlTSXkTtkLLQsXAyn8ey88CLK3ze2fZezJeXS5CYbL8=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XUPj1d7T0UnIFO23EOFV8htdNMH6+SkCja1AvckLXE=
+			EgbW7DFC2kyzzRINgiNBMAFfnSqdVvGqpz1dQhN9G7c=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
