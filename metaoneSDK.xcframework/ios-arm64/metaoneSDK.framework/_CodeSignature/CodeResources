@@ -144,6 +144,10 @@
 		<data>
 		R/L+VmIq+9MWsAFuvNBTpwXcJeE=
 		</data>
+		<key>translations.json</key>
+		<data>
+		aMPe3TN0mrFc9opIvC2892rlzUg=
+		</data>
 		<key>vi-VN.json</key>
 		<data>
 		znivZ7grqPFXuAATRGa5lrMp6VU=
@@ -395,6 +399,13 @@
 			<key>hash2</key>
 			<data>
 			/oZkliFan0tZpWLE2QDWykQgKujSg2yH0Z01qCbNRVU=
+			</data>
+		</dict>
+		<key>translations.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S6JfIWchDYUAXWc9dWG8i49nXwrluYROife3xm/ivsM=
 			</data>
 		</dict>
 		<key>vi-VN.json</key>
