@@ -152,7 +152,7 @@ extension Swift.String {
   public func getUserContacts(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactsResponse>)
   public func getUserContactWithId(id: Swift.String, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>)
   public func addUserContact(request: metaoneSDK.ContactApiModel.ContactRequest, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>)
-  public func updateUserContact(id: Swift.String, request: metaoneSDK.ContactApiModel.ContactRequest, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>)
+  public func updateUserContact(id: Swift.String, request: metaoneSDK.ContactApiModel.ContactRequest, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.SuccessResponse>)
   public func deleteUserContactWithId(id: Swift.String, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.SuccessResponse>)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
@@ -810,7 +810,7 @@ public enum Transactions {
   }
   public struct TransactionToken : Swift.Codable {
     public let address: Swift.String?
-    public let decimals: Swift.Int
+    public let decimals: Swift.Int?
     public let name: Swift.String
     public let symbol: Swift.String
     public func encode(to encoder: any Swift.Encoder) throws
@@ -844,7 +844,7 @@ public enum Transactions {
     public let function: Swift.String?
     public let sourceUrl: Swift.String?
     public let events: [metaoneSDK.Transactions.UserEvent]
-    public let txData: Swift.String?
+    public let txData: metaoneSDK.Transactions.TxDataEnum?
     public let tags: [Swift.String]?
     public let externalExplorerURL: Swift.String?
     public let aggregatedData: metaoneSDK.Transactions.AggregatedData?
@@ -854,6 +854,12 @@ public enum Transactions {
     public let scamTokens: [metaoneSDK.Transactions.TransactionToken]?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
+  }
+  public enum TxDataEnum : Swift.Codable {
+    case stringData(Swift.String)
+    case objectData(metaoneSDK.Transactions.TransactionTxData)
+    public init(from decoder: any Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
   }
   public struct TransactionHistory : Swift.Codable {
     public let hash: Swift.String
@@ -893,7 +899,9 @@ public enum Transactions {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct TransactionTxData {
+  public struct TransactionTxData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
   public struct UnsignedRpcTransactionData : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws

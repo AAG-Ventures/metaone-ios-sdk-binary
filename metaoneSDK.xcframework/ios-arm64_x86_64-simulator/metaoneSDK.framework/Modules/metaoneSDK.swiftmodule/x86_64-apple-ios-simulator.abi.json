@@ -4193,21 +4193,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "M1EnqueueCallback",
-                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>",
+                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.SuccessResponse>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ContactResponse",
-                    "printedName": "metaoneSDK.ContactApiModel.ContactResponse",
-                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV"
+                    "name": "SuccessResponse",
+                    "printedName": "metaoneSDK.SuccessResponse",
+                    "usr": "s:10metaoneSDK15SuccessResponseV"
                   }
                 ],
                 "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10metaoneSDK20MetaOneSDKApiManagerC17updateUserContact2id7request8callbackySS_AA0I8ApiModelO0I7RequestVAA17M1EnqueueCallbackCyAI0I8ResponseVGtF",
-            "mangledName": "$s10metaoneSDK20MetaOneSDKApiManagerC17updateUserContact2id7request8callbackySS_AA0I8ApiModelO0I7RequestVAA17M1EnqueueCallbackCyAI0I8ResponseVGtF",
+            "usr": "s:10metaoneSDK20MetaOneSDKApiManagerC17updateUserContact2id7request8callbackySS_AA0I8ApiModelO0I7RequestVAA17M1EnqueueCallbackCyAA15SuccessResponseVGtF",
+            "mangledName": "$s10metaoneSDK20MetaOneSDKApiManagerC17updateUserContact2id7request8callbackySS_AA0I8ApiModelO0I7RequestVAA17M1EnqueueCallbackCyAA15SuccessResponseVGtF",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
@@ -33288,14 +33288,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSivp",
-                "mangledName": "$s10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSivp",
+                "usr": "s:10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSiSgvp",
+                "mangledName": "$s10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSiSgvp",
                 "moduleName": "metaoneSDK",
                 "declAttributes": [
                   "HasStorage",
@@ -33311,14 +33319,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSivg",
-                    "mangledName": "$s10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSivg",
+                    "usr": "s:10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSiSgvg",
+                    "mangledName": "$s10metaoneSDK12TransactionsO16TransactionTokenV8decimalsSiSgvg",
                     "moduleName": "metaoneSDK",
                     "implicit": true,
                     "accessorKind": "get"
@@ -34771,21 +34787,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "metaoneSDK.Transactions.TxDataEnum?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "TxDataEnum",
+                        "printedName": "metaoneSDK.Transactions.TxDataEnum",
+                        "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:10metaoneSDK12TransactionsO15UserTransactionV6txDataSSSgvp",
-                "mangledName": "$s10metaoneSDK12TransactionsO15UserTransactionV6txDataSSSgvp",
+                "usr": "s:10metaoneSDK12TransactionsO15UserTransactionV6txDataAC02TxG4EnumOSgvp",
+                "mangledName": "$s10metaoneSDK12TransactionsO15UserTransactionV6txDataAC02TxG4EnumOSgvp",
                 "moduleName": "metaoneSDK",
                 "declAttributes": [
                   "HasStorage",
@@ -34802,21 +34818,21 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.String?",
+                        "printedName": "metaoneSDK.Transactions.TxDataEnum?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "TxDataEnum",
+                            "printedName": "metaoneSDK.Transactions.TxDataEnum",
+                            "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO"
                           }
                         ],
                         "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:10metaoneSDK12TransactionsO15UserTransactionV6txDataSSSgvg",
-                    "mangledName": "$s10metaoneSDK12TransactionsO15UserTransactionV6txDataSSSgvg",
+                    "usr": "s:10metaoneSDK12TransactionsO15UserTransactionV6txDataAC02TxG4EnumOSgvg",
+                    "mangledName": "$s10metaoneSDK12TransactionsO15UserTransactionV6txDataAC02TxG4EnumOSgvg",
                     "moduleName": "metaoneSDK",
                     "implicit": true,
                     "accessorKind": "get"
@@ -35346,6 +35362,191 @@
             "declKind": "Struct",
             "usr": "s:10metaoneSDK12TransactionsO15UserTransactionV",
             "mangledName": "$s10metaoneSDK12TransactionsO15UserTransactionV",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "TxDataEnum",
+            "printedName": "TxDataEnum",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "stringData",
+                "printedName": "stringData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(metaoneSDK.Transactions.TxDataEnum.Type) -> (Swift.String) -> metaoneSDK.Transactions.TxDataEnum",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> metaoneSDK.Transactions.TxDataEnum",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TxDataEnum",
+                            "printedName": "metaoneSDK.Transactions.TxDataEnum",
+                            "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "metaoneSDK.Transactions.TxDataEnum.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TxDataEnum",
+                            "printedName": "metaoneSDK.Transactions.TxDataEnum",
+                            "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO06stringE0yAESScAEmF",
+                "mangledName": "$s10metaoneSDK12TransactionsO10TxDataEnumO06stringE0yAESScAEmF",
+                "moduleName": "metaoneSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "objectData",
+                "printedName": "objectData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(metaoneSDK.Transactions.TxDataEnum.Type) -> (metaoneSDK.Transactions.TransactionTxData) -> metaoneSDK.Transactions.TxDataEnum",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(metaoneSDK.Transactions.TransactionTxData) -> metaoneSDK.Transactions.TxDataEnum",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TxDataEnum",
+                            "printedName": "metaoneSDK.Transactions.TxDataEnum",
+                            "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TransactionTxData",
+                            "printedName": "metaoneSDK.Transactions.TransactionTxData",
+                            "usr": "s:10metaoneSDK12TransactionsO17TransactionTxDataV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "metaoneSDK.Transactions.TxDataEnum.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TxDataEnum",
+                            "printedName": "metaoneSDK.Transactions.TxDataEnum",
+                            "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO06objectE0yAeC011TransactiondE0VcAEmF",
+                "mangledName": "$s10metaoneSDK12TransactionsO10TxDataEnumO06objectE0yAeC011TransactiondE0VcAEmF",
+                "moduleName": "metaoneSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TxDataEnum",
+                    "printedName": "metaoneSDK.Transactions.TxDataEnum",
+                    "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK12TransactionsO10TxDataEnumO4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK12TransactionsO10TxDataEnumO6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10metaoneSDK12TransactionsO10TxDataEnumO",
+            "mangledName": "$s10metaoneSDK12TransactionsO10TxDataEnumO",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
@@ -36823,12 +37024,81 @@
             "kind": "TypeDecl",
             "name": "TransactionTxData",
             "printedName": "TransactionTxData",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionTxData",
+                    "printedName": "metaoneSDK.Transactions.TransactionTxData",
+                    "usr": "s:10metaoneSDK12TransactionsO17TransactionTxDataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK12TransactionsO17TransactionTxDataV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK12TransactionsO17TransactionTxDataV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK12TransactionsO17TransactionTxDataV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK12TransactionsO17TransactionTxDataV6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
             "declKind": "Struct",
             "usr": "s:10metaoneSDK12TransactionsO17TransactionTxDataV",
             "mangledName": "$s10metaoneSDK12TransactionsO17TransactionTxDataV",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
             ]
           },
           {
@@ -76268,42 +76538,42 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
       "kind": "StringLiteral",
-      "offset": 3395,
+      "offset": 3379,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
       "kind": "StringLiteral",
-      "offset": 3406,
+      "offset": 3390,
       "length": 1,
       "value": "\"\/user\/contact\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
       "kind": "StringLiteral",
-      "offset": 3425,
+      "offset": 3409,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
       "kind": "StringLiteral",
-      "offset": 4363,
+      "offset": 4331,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
       "kind": "StringLiteral",
-      "offset": 4374,
+      "offset": 4342,
       "length": 1,
       "value": "\"\/user\/contact\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
       "kind": "StringLiteral",
-      "offset": 4393,
+      "offset": 4361,
       "length": 1,
       "value": "\"\""
     },
@@ -77752,434 +78022,441 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6596,
+      "offset": 6251,
+      "length": 29,
+      "value": "\"Failed to decode TxDataEnum\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 7799,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6624,
+      "offset": 7827,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6653,
+      "offset": 7856,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6596,
+      "offset": 7799,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6624,
+      "offset": 7827,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6653,
+      "offset": 7856,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "Dictionary",
-      "offset": 9370,
+      "offset": 10582,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 9431,
+      "offset": 10643,
       "length": 9,
       "value": "\"eventId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 9492,
+      "offset": 10704,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 9553,
+      "offset": 10765,
       "length": 9,
       "value": "\"payment\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10057,
+      "offset": 11269,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10083,
+      "offset": 11295,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10117,
+      "offset": 11329,
       "length": 19,
       "value": "\"blockchainTxnHash\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10173,
+      "offset": 11385,
       "length": 19,
       "value": "\"cryptoTotalAmount\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10243,
+      "offset": 11455,
       "length": 18,
       "value": "\"partnerEndUserId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10546,
+      "offset": 11758,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 10580,
+      "offset": 11792,
       "length": 10,
       "value": "\"currency\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "Dictionary",
-      "offset": 11074,
+      "offset": 12286,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11133,
+      "offset": 12345,
       "length": 8,
       "value": "\"swapId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11204,
+      "offset": 12416,
       "length": 12,
       "value": "\"fromSymbol\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11279,
+      "offset": 12491,
       "length": 10,
       "value": "\"toAmount\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11350,
+      "offset": 12562,
       "length": 10,
       "value": "\"toSymbol\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11429,
+      "offset": 12641,
       "length": 14,
       "value": "\"finalAddress\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11506,
+      "offset": 12718,
       "length": 9,
       "value": "\"swapFee\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11575,
+      "offset": 12787,
       "length": 10,
       "value": "\"feePrice\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 11650,
+      "offset": 12862,
       "length": 12,
       "value": "\"toTokenUri\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "Dictionary",
-      "offset": 12552,
+      "offset": 13764,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 12611,
+      "offset": 13823,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 12676,
+      "offset": 13888,
       "length": 9,
       "value": "\"orderNo\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 12759,
+      "offset": 13971,
       "length": 17,
       "value": "\"merchantOrderNo\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 12842,
+      "offset": 14054,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 12909,
+      "offset": 14121,
       "length": 9,
       "value": "\"payTime\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 12974,
+      "offset": 14186,
       "length": 8,
       "value": "\"crypto\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13039,
+      "offset": 14251,
       "length": 9,
       "value": "\"network\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13114,
+      "offset": 14326,
       "length": 13,
       "value": "\"cryptoPrice\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13189,
+      "offset": 14401,
       "length": 9,
       "value": "\"payType\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13270,
+      "offset": 14482,
       "length": 16,
       "value": "\"cryptoQuantity\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13361,
+      "offset": 14573,
       "length": 14,
       "value": "\"cryptoAmount\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13434,
+      "offset": 14646,
       "length": 7,
       "value": "\"appId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13491,
+      "offset": 14703,
       "length": 6,
       "value": "\"fiat\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13558,
+      "offset": 14770,
       "length": 12,
       "value": "\"fiatAmount\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13629,
+      "offset": 14841,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13751,
+      "offset": 14963,
       "length": 9,
       "value": "\"rampFee\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13812,
+      "offset": 15024,
       "length": 6,
       "value": "\"side\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 13883,
+      "offset": 15095,
       "length": 14,
       "value": "\"orderAddress\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "Dictionary",
-      "offset": 14302,
+      "offset": 15514,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14377,
+      "offset": 15589,
       "length": 16,
       "value": "\"swapTxnContext\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14500,
+      "offset": 15712,
       "length": 23,
       "value": "\"alchemyQueryOrderData\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14619,
+      "offset": 15831,
       "length": 14,
       "value": "\"simplexEvent\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14708,
+      "offset": 15920,
       "length": 8,
       "value": "\"swapId\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14869,
+      "offset": 16081,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14902,
+      "offset": 16114,
       "length": 10,
       "value": "\"PAY_FAIL\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14939,
+      "offset": 16151,
       "length": 13,
       "value": "\"PAY_SUCCESS\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14977,
+      "offset": 16189,
       "length": 10,
       "value": "\"TRANSFER\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 15010,
+      "offset": 16222,
       "length": 8,
       "value": "\"CANCEL\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 15043,
+      "offset": 16255,
       "length": 10,
       "value": "\"FINISHED\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14869,
+      "offset": 16081,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14902,
+      "offset": 16114,
       "length": 10,
       "value": "\"PAY_FAIL\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14939,
+      "offset": 16151,
       "length": 13,
       "value": "\"PAY_SUCCESS\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 14977,
+      "offset": 16189,
       "length": 10,
       "value": "\"TRANSFER\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 15010,
+      "offset": 16222,
       "length": 8,
       "value": "\"CANCEL\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/TransactionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 15043,
+      "offset": 16255,
       "length": 10,
       "value": "\"FINISHED\""
     },
