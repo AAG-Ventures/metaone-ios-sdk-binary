@@ -17978,16 +17978,25 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvp",
-                "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvp",
+                "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvp",
+                "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvp",
                 "moduleName": "metaoneSDK",
                 "declAttributes": [
+                  "HasInitialValue",
                   "HasStorage",
                   "AccessControl"
                 ],
@@ -18000,14 +18009,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvg",
-                    "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvg",
+                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvg",
+                    "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvg",
                     "moduleName": "metaoneSDK",
                     "implicit": true,
                     "accessorKind": "get"
@@ -18024,14 +18041,22 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvs",
-                    "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvs",
+                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvs",
+                    "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvs",
                     "moduleName": "metaoneSDK",
                     "implicit": true,
                     "accessorKind": "set"
@@ -18048,8 +18073,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvM",
-                    "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSvM",
+                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvM",
+                    "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2idSSSgvM",
                     "moduleName": "metaoneSDK",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -18225,6 +18250,54 @@
                     "accessorKind": "_modify"
                   }
                 ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(id:name:address:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactWalletAddress",
+                    "printedName": "metaoneSDK.Wallets.ContactWalletAddress",
+                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV2id4name7addressAESSSg_S2Stcfc",
+                "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV2id4name7addressAESSSg_S2Stcfc",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
               },
               {
                 "kind": "Constructor",
@@ -18720,6 +18793,77 @@
                     "accessorKind": "_modify"
                   }
                 ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(id:name:photo:wallets:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Contact",
+                    "printedName": "metaoneSDK.Wallets.Contact",
+                    "usr": "s:10metaoneSDK7WalletsO7ContactV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[metaoneSDK.Wallets.ContactWalletAddress]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContactWalletAddress",
+                        "printedName": "metaoneSDK.Wallets.ContactWalletAddress",
+                        "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK7WalletsO7ContactV2id4name5photo7walletsAESSSg_SSAJSayAC0D13WalletAddressVGtcfc",
+                "mangledName": "$s10metaoneSDK7WalletsO7ContactV2id4name5photo7walletsAESSSg_SSAJSayAC0D13WalletAddressVGtcfc",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
               },
               {
                 "kind": "Constructor",
@@ -27273,6 +27417,33 @@
             "name": "ContactRequest",
             "printedName": "ContactRequest",
             "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(data:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactRequest",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactRequest",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Contact",
+                    "printedName": "metaoneSDK.Wallets.Contact",
+                    "usr": "s:10metaoneSDK7WalletsO7ContactV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV4dataAeA7WalletsO0C0V_tcfc",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C7RequestV4dataAeA7WalletsO0C0V_tcfc",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
               {
                 "kind": "Constructor",
                 "name": "init",
@@ -75740,105 +75911,105 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 5146,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5172,
+      "offset": 5346,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 5202,
+      "offset": 5376,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 5527,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5591,
+      "offset": 5460,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 5672,
+      "offset": 6051,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6115,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6196,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 5720,
+      "offset": 6244,
       "length": 9,
       "value": "\"wallets\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6647,
+      "offset": 7171,
       "length": 8,
       "value": "\"ERC721\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6675,
+      "offset": 7199,
       "length": 9,
       "value": "\"ERC1155\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6647,
+      "offset": 7171,
       "length": 8,
       "value": "\"ERC721\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6675,
+      "offset": 7199,
       "length": 9,
       "value": "\"ERC1155\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6767,
+      "offset": 7291,
       "length": 5,
       "value": "\"NFT\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6792,
+      "offset": 7316,
       "length": 5,
       "value": "\"SFT\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6767,
+      "offset": 7291,
       "length": 5,
       "value": "\"NFT\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6792,
+      "offset": 7316,
       "length": 5,
       "value": "\"SFT\""
     },
@@ -77196,7 +77367,7 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/ContactApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 645,
+      "offset": 738,
       "length": 6,
       "value": "\"data\""
     },

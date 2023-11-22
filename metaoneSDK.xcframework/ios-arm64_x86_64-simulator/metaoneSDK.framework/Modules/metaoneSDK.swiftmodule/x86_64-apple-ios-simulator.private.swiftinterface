@@ -417,9 +417,10 @@ public enum Wallets {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct ContactWalletAddress : Swift.Codable {
-    public var id: Swift.String
+    public var id: Swift.String?
     public var name: Swift.String
     public var address: Swift.String
+    public init(id: Swift.String? = nil, name: Swift.String, address: Swift.String)
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -428,6 +429,7 @@ public enum Wallets {
     public var name: Swift.String
     public var photo: Swift.String?
     public var wallets: [metaoneSDK.Wallets.ContactWalletAddress]
+    public init(id: Swift.String? = nil, name: Swift.String, photo: Swift.String? = nil, wallets: [metaoneSDK.Wallets.ContactWalletAddress])
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -636,6 +638,7 @@ public enum ContactApiModel {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct ContactRequest : Swift.Codable {
+    public init(data: metaoneSDK.Wallets.Contact)
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
