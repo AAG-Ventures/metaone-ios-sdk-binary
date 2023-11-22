@@ -149,6 +149,11 @@ extension Swift.String {
   public func getCurrency(currencyId: Swift.String, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserCurrencyResponse>)
   public func getNfts(walletId: Swift.String?, queryString: Swift.String?, limit: Swift.Int, offset: Swift.Int, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.UserNFTsResponse>)
   public func getTransactions(walletId: Swift.String?, assetRef: Swift.String?, bip44: Swift.String?, tokenAddress: Swift.String?, page: Swift.Int?, offset: Swift.Int?, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.TransactionAPIModel.TransactionsResponse>?)
+  public func getUserContacts(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactsResponse>)
+  public func getUserContactWithId(id: Swift.String, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>)
+  public func addUserContact(request: metaoneSDK.ContactApiModel.ContactRequest, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>)
+  public func updateUserContact(id: Swift.String, request: metaoneSDK.ContactApiModel.ContactRequest, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>)
+  public func deleteUserContactWithId(id: Swift.String, callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.SuccessResponse>)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -411,16 +416,20 @@ public enum Wallets {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct ContactWalletAddress {
+  public struct ContactWalletAddress : Swift.Codable {
     public var id: Swift.String
     public var name: Swift.String
     public var address: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
-  public struct Contact {
+  public struct Contact : Swift.Codable {
     public var id: Swift.String?
     public var name: Swift.String
     public var photo: Swift.String?
     public var wallets: [metaoneSDK.Wallets.ContactWalletAddress]
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
 }
 public enum WalletConnect {
@@ -614,11 +623,21 @@ public struct SDKConfig {
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK20FirstWordPurpleTitleV4bodyQrvp", 0) __
 }
 public enum ContactApiModel {
-  public struct ContactsResponse {
+  public struct ContactsResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
-  public struct ContactResponse {
+  public struct ContactResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
-  public struct ContactData {
+  public struct ContactData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct ContactRequest : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
 }
 @_hasMissingDesignatedInitializers public class Helpers {

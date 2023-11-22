@@ -4052,6 +4052,207 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserContacts",
+            "printedName": "getUserContacts(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "M1EnqueueCallback",
+                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactsResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactsResponse",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactsResponse",
+                    "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV"
+                  }
+                ],
+                "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK20MetaOneSDKApiManagerC15getUserContacts8callbackyAA17M1EnqueueCallbackCyAA15ContactApiModelO0I8ResponseVG_tF",
+            "mangledName": "$s10metaoneSDK20MetaOneSDKApiManagerC15getUserContacts8callbackyAA17M1EnqueueCallbackCyAA15ContactApiModelO0I8ResponseVG_tF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserContactWithId",
+            "printedName": "getUserContactWithId(id:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "M1EnqueueCallback",
+                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactResponse",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactResponse",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV"
+                  }
+                ],
+                "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK20MetaOneSDKApiManagerC20getUserContactWithId2id8callbackySS_AA17M1EnqueueCallbackCyAA0I8ApiModelO0I8ResponseVGtF",
+            "mangledName": "$s10metaoneSDK20MetaOneSDKApiManagerC20getUserContactWithId2id8callbackySS_AA17M1EnqueueCallbackCyAA0I8ApiModelO0I8ResponseVGtF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addUserContact",
+            "printedName": "addUserContact(request:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContactRequest",
+                "printedName": "metaoneSDK.ContactApiModel.ContactRequest",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "M1EnqueueCallback",
+                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactResponse",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactResponse",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV"
+                  }
+                ],
+                "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK20MetaOneSDKApiManagerC14addUserContact7request8callbackyAA0I8ApiModelO0I7RequestV_AA17M1EnqueueCallbackCyAH0I8ResponseVGtF",
+            "mangledName": "$s10metaoneSDK20MetaOneSDKApiManagerC14addUserContact7request8callbackyAA0I8ApiModelO0I7RequestV_AA17M1EnqueueCallbackCyAH0I8ResponseVGtF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUserContact",
+            "printedName": "updateUserContact(id:request:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContactRequest",
+                "printedName": "metaoneSDK.ContactApiModel.ContactRequest",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "M1EnqueueCallback",
+                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.ContactApiModel.ContactResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactResponse",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactResponse",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV"
+                  }
+                ],
+                "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK20MetaOneSDKApiManagerC17updateUserContact2id7request8callbackySS_AA0I8ApiModelO0I7RequestVAA17M1EnqueueCallbackCyAI0I8ResponseVGtF",
+            "mangledName": "$s10metaoneSDK20MetaOneSDKApiManagerC17updateUserContact2id7request8callbackySS_AA0I8ApiModelO0I7RequestVAA17M1EnqueueCallbackCyAI0I8ResponseVGtF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteUserContactWithId",
+            "printedName": "deleteUserContactWithId(id:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "M1EnqueueCallback",
+                "printedName": "metaoneSDK.M1EnqueueCallback<metaoneSDK.SuccessResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SuccessResponse",
+                    "printedName": "metaoneSDK.SuccessResponse",
+                    "usr": "s:10metaoneSDK15SuccessResponseV"
+                  }
+                ],
+                "usr": "s:10metaoneSDK17M1EnqueueCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK20MetaOneSDKApiManagerC23deleteUserContactWithId2id8callbackySS_AA17M1EnqueueCallbackCyAA15SuccessResponseVGtF",
+            "mangledName": "$s10metaoneSDK20MetaOneSDKApiManagerC23deleteUserContactWithId2id8callbackySS_AA17M1EnqueueCallbackCyAA15SuccessResponseVGtF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -18024,6 +18225,57 @@
                     "accessorKind": "_modify"
                   }
                 ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactWalletAddress",
+                    "printedName": "metaoneSDK.Wallets.ContactWalletAddress",
+                    "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK7WalletsO20ContactWalletAddressV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK7WalletsO20ContactWalletAddressV6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Struct",
@@ -18032,6 +18284,22 @@
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
             ]
           },
           {
@@ -18452,6 +18720,57 @@
                     "accessorKind": "_modify"
                   }
                 ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Contact",
+                    "printedName": "metaoneSDK.Wallets.Contact",
+                    "usr": "s:10metaoneSDK7WalletsO7ContactV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK7WalletsO7ContactV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK7WalletsO7ContactV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK7WalletsO7ContactV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK7WalletsO7ContactV6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Struct",
@@ -18460,6 +18779,22 @@
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
             ]
           }
         ],
@@ -23473,6 +23808,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "metaoneSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "metaoneSDK"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -26677,36 +27029,324 @@
             "kind": "TypeDecl",
             "name": "ContactsResponse",
             "printedName": "ContactsResponse",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactsResponse",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactsResponse",
+                    "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
             "declKind": "Struct",
             "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV",
             "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
             ]
           },
           {
             "kind": "TypeDecl",
             "name": "ContactResponse",
             "printedName": "ContactResponse",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactResponse",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactResponse",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
             "declKind": "Struct",
             "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV",
             "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
             ]
           },
           {
             "kind": "TypeDecl",
             "name": "ContactData",
             "printedName": "ContactData",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactData",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactData",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C4DataV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C4DataV6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
             "declKind": "Struct",
             "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV",
             "mangledName": "$s10metaoneSDK15ContactApiModelO0C4DataV",
             "moduleName": "metaoneSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ContactRequest",
+            "printedName": "ContactRequest",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactRequest",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactRequest",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C7RequestV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C7RequestV6encode2toys7Encoder_p_tKF",
+                "moduleName": "metaoneSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10metaoneSDK15ContactApiModelO0C7RequestV",
+            "mangledName": "$s10metaoneSDK15ContactApiModelO0C7RequestV",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
             ]
           }
         ],
@@ -59031,6 +59671,13 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "metaoneSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "metaoneSDK",
         "declAttributes": [
           "RawDocComment"
@@ -75093,56 +75740,105 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6087,
+      "offset": 5146,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5172,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5202,
+      "length": 9,
+      "value": "\"address\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5527,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5591,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5672,
+      "length": 7,
+      "value": "\"photo\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5720,
+      "length": 9,
+      "value": "\"wallets\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6647,
       "length": 8,
       "value": "\"ERC721\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6115,
+      "offset": 6675,
       "length": 9,
       "value": "\"ERC1155\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6087,
+      "offset": 6647,
       "length": 8,
       "value": "\"ERC721\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6115,
+      "offset": 6675,
       "length": 9,
       "value": "\"ERC1155\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6207,
+      "offset": 6767,
       "length": 5,
       "value": "\"NFT\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6232,
+      "offset": 6792,
       "length": 5,
       "value": "\"SFT\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6207,
+      "offset": 6767,
       "length": 5,
       "value": "\"NFT\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/WalletsModel.swift",
       "kind": "StringLiteral",
-      "offset": 6232,
+      "offset": 6792,
       "length": 5,
       "value": "\"SFT\""
     },
@@ -75348,6 +76044,97 @@
       "offset": 3584,
       "length": 15,
       "value": "\"Poppins-Light\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 26,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 1,
+      "value": "\"\/user\/contacts\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1468,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 1,
+      "value": "\"\/user\/contact\/\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2392,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2403,
+      "length": 1,
+      "value": "\"\/user\/contact\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3395,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3406,
+      "length": 1,
+      "value": "\"\/user\/contact\/\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3425,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4363,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4374,
+      "length": 1,
+      "value": "\"\/user\/contact\/\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/ContactsClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4393,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/clients\/AuthClient.swift",
@@ -76405,6 +77192,13 @@
       "offset": 956,
       "length": 2,
       "value": "28"
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/ContactApiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 6,
+      "value": "\"data\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/helpers\/Helpers.swift",
@@ -90052,259 +90846,259 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 1772,
+      "offset": 1926,
       "length": 109,
       "value": "\"ios-\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1974,
       "length": 1,
       "value": "\":\/\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 1877,
+      "offset": 2031,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 2034,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 1932,
+      "offset": 2086,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 1972,
+      "offset": 2126,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 2244,
       "length": 18,
       "value": "\"Content-Language\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2147,
+      "offset": 2301,
       "length": 5,
       "value": "\"AAG\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2174,
+      "offset": 2328,
       "length": 10,
       "value": "\"X-Domain\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 2423,
       "length": 9,
       "value": "\"X-Realm\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2365,
+      "offset": 2519,
       "length": 14,
       "value": "\"X-Client-Ver\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2444,
+      "offset": 2598,
       "length": 14,
       "value": "\"X-Request-Id\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2525,
+      "offset": 2679,
       "length": 15,
       "value": "\"X-Device-Type\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 2952,
+      "offset": 3106,
       "length": 13,
       "value": "\"X-Encrypted\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3181,
+      "offset": 3335,
       "length": 10,
       "value": "\"X-App-Id\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3214,
+      "offset": 3368,
       "length": 10,
       "value": "\"X-App-Id\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3275,
+      "offset": 3429,
       "length": 13,
       "value": "\"X-Encrypted\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3311,
+      "offset": 3465,
       "length": 13,
       "value": "\"X-Encrypted\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3375,
+      "offset": 3529,
       "length": 15,
       "value": "\"x-device-type\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3413,
+      "offset": 3567,
       "length": 15,
       "value": "\"X-Device-Type\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3633,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
+      "offset": 3670,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3659,
+      "offset": 3813,
       "length": 13,
       "value": "\"X-Encrypted\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3796,
+      "offset": 3950,
       "length": 26,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3821,
+      "offset": 3975,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3844,
+      "offset": 3998,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3947,
+      "offset": 4101,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 4123,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 3992,
+      "offset": 4146,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 4130,
+      "offset": 4284,
       "length": 6,
       "value": "\"mdm\/\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 4154,
+      "offset": 4308,
       "length": 11,
       "value": "\"sso\/login\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 4228,
+      "offset": 4382,
       "length": 10,
       "value": "\"\/metaone\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 4246,
+      "offset": 4400,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 4275,
+      "offset": 4429,
       "length": 18,
       "value": "\"\/metaone-mainnet\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 4301,
+      "offset": 4455,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "StringLiteral",
-      "offset": 4578,
+      "offset": 4732,
       "length": 23,
       "value": "\"Unkown error response\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/api\/ApiClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4609,
+      "offset": 4763,
       "length": 1,
       "value": "0"
     },
