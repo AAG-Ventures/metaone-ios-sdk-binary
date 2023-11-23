@@ -27175,6 +27175,214 @@
             "printedName": "ContactsResponse",
             "children": [
               {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactData",
+                    "printedName": "metaoneSDK.ContactApiModel.ContactData",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV4dataAC0C4DataVvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV4dataAC0C4DataVvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContactData",
+                        "printedName": "metaoneSDK.ContactApiModel.ContactData",
+                        "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV4dataAC0C4DataVvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV4dataAC0C4DataVvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "responseCode",
+                "printedName": "responseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV12responseCodeSSvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV12responseCodeSSvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV12responseCodeSSvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV12responseCodeSSvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "errorType",
+                "printedName": "errorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV9errorTypeSSSgvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV9errorTypeSSSgvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV9errorTypeSSSgvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV9errorTypeSSSgvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV5errorSSSgvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV5errorSSSgvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO16ContactsResponseV5errorSSSgvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO16ContactsResponseV5errorSSSgvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -27256,6 +27464,214 @@
             "printedName": "ContactResponse",
             "children": [
               {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Contact",
+                    "printedName": "metaoneSDK.Wallets.Contact",
+                    "usr": "s:10metaoneSDK7WalletsO7ContactV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV4dataAA7WalletsO0C0Vvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV4dataAA7WalletsO0C0Vvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Contact",
+                        "printedName": "metaoneSDK.Wallets.Contact",
+                        "usr": "s:10metaoneSDK7WalletsO7ContactV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV4dataAA7WalletsO0C0Vvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV4dataAA7WalletsO0C0Vvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "responseCode",
+                "printedName": "responseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV12responseCodeSSvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV12responseCodeSSvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV12responseCodeSSvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV12responseCodeSSvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "errorType",
+                "printedName": "errorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV9errorTypeSSSgvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV9errorTypeSSSgvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV9errorTypeSSSgvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV9errorTypeSSSgvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV5errorSSSgvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV5errorSSSgvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C8ResponseV5errorSSSgvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO0C8ResponseV5errorSSSgvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -27336,6 +27752,66 @@
             "name": "ContactData",
             "printedName": "ContactData",
             "children": [
+              {
+                "kind": "Var",
+                "name": "contacts",
+                "printedName": "contacts",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[metaoneSDK.Wallets.Contact]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Contact",
+                        "printedName": "metaoneSDK.Wallets.Contact",
+                        "usr": "s:10metaoneSDK7WalletsO7ContactV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV8contactsSayAA7WalletsO0C0VGvp",
+                "mangledName": "$s10metaoneSDK15ContactApiModelO0C4DataV8contactsSayAA7WalletsO0C0VGvp",
+                "moduleName": "metaoneSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[metaoneSDK.Wallets.Contact]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Contact",
+                            "printedName": "metaoneSDK.Wallets.Contact",
+                            "usr": "s:10metaoneSDK7WalletsO7ContactV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10metaoneSDK15ContactApiModelO0C4DataV8contactsSayAA7WalletsO0C0VGvg",
+                    "mangledName": "$s10metaoneSDK15ContactApiModelO0C4DataV8contactsSayAA7WalletsO0C0VGvg",
+                    "moduleName": "metaoneSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
               {
                 "kind": "Constructor",
                 "name": "init",
@@ -77637,7 +78113,7 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/ContactApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 801,
       "length": 6,
       "value": "\"data\""
     },

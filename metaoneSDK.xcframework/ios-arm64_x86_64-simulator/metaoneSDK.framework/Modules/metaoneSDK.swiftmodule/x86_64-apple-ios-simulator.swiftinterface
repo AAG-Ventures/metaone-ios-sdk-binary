@@ -626,14 +626,23 @@ public struct SDKConfig {
 }
 public enum ContactApiModel {
   public struct ContactsResponse : Swift.Codable {
+    public let data: metaoneSDK.ContactApiModel.ContactData
+    public let responseCode: Swift.String
+    public let errorType: Swift.String?
+    public let error: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct ContactResponse : Swift.Codable {
+    public let data: metaoneSDK.Wallets.Contact
+    public let responseCode: Swift.String
+    public let errorType: Swift.String?
+    public let error: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct ContactData : Swift.Codable {
+    public let contacts: [metaoneSDK.Wallets.Contact]
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
