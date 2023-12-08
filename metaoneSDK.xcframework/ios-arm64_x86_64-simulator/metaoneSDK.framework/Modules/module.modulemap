@@ -1,7 +1,7 @@
 framework module metaoneSDK {
   umbrella header "metaoneSDK.h"
-
   export *
+
   module * { export * }
 }
 
