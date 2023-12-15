@@ -1401,7 +1401,7 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func setup(completion: @escaping () -> Swift.Void)
   public func initialize(sdkConfig: metaoneSDK.SDKConfig? = nil, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func setupConfig(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.AppConfig.Config>? = nil)
-  public func setupUserData()
+  public func setupUserData(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func refreshSession(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func startActivity(screenName: metaoneSDK.NavigationStackType)
   public func hideSDKActivity()
