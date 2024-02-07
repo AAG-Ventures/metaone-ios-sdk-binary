@@ -620,7 +620,6 @@ public struct SDKConfig {
   public static var SDK_VERSION: Swift.String
   public static var SDK_REALM: Swift.String
   public static var SDK_ENVIRONMENT: Swift.String
-  public static var SDK_KEY: Swift.String
   public static var SDK_CONFIG_URL: Swift.String
   public static var SDK_PUB_PHRASE: Swift.String
   public static var SDK_API_CLIENT_REFERENCE: Swift.String
@@ -631,9 +630,6 @@ public struct SDKConfig {
     get
   }
   public static var API_BASE_URL: Swift.String {
-    get
-  }
-  public static var WALLET_URL: Swift.String {
     get
   }
   public static var WEB_SDK_URL: Swift.String {
@@ -1410,6 +1406,7 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func openConfirmTransaction(data: Swift.String, closeAction: (() -> Swift.Void)?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
   public func sendTransaction(wallet: metaoneSDK.Wallets.UserWallet, address: Swift.String, amount: Swift.String, asset: metaoneSDK.Wallets.WalletToken?, memo: Swift.String?, personalNote: Swift.String?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func isSignatureSet() -> Swift.Bool
+  public func setPrefix(prefix: Swift.String)
   public func requestCameraPermission()
   public func openWallet() -> metaoneSDK.ErrorResponse?
   public func createSigning(data: Swift.String)
@@ -1945,6 +1942,8 @@ public enum AuthApiModel {
     public let expireAt: Swift.Int64
     public let idToken: Swift.String
     public let refreshToken: Swift.String
+    public let cUrl: Swift.String?
+    public let cCode: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
