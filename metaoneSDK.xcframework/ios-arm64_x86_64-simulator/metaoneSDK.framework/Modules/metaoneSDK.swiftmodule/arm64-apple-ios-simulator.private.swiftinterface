@@ -610,11 +610,10 @@ public struct SDKConfig {
   public var SDK_VERSION: Swift.String
   public var SDK_REALM: Swift.String
   public var SDK_ENVIRONMENT: Swift.String
-  public var SDK_KEY: Swift.String
   public var SDK_CONFIG_URL: Swift.String
   public var SDK_PUB_PHRASE: Swift.String
   public var SDK_API_CLIENT_REFERENCE: Swift.String
-  public init(SDK_VERSION: Swift.String, SDK_REALM: Swift.String, SDK_ENVIRONMENT: Swift.String, SDK_KEY: Swift.String, SDK_CONFIG_URL: Swift.String, SDK_PUB_PHRASE: Swift.String, SDK_API_CLIENT_REFERENCE: Swift.String)
+  public init(SDK_VERSION: Swift.String, SDK_REALM: Swift.String, SDK_ENVIRONMENT: Swift.String, SDK_CONFIG_URL: Swift.String, SDK_PUB_PHRASE: Swift.String, SDK_API_CLIENT_REFERENCE: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class ConfigProvider {
   public static var SDK_VERSION: Swift.String
