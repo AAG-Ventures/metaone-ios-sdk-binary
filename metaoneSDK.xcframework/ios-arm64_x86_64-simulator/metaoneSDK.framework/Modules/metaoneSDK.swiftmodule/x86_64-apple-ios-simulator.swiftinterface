@@ -688,6 +688,16 @@ public enum UserApiModel {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
+  public struct GetUserSettingsResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct UpdateUserSettingsRequest : Swift.Codable {
+    public init(currency: Swift.String? = nil, advMode: Swift.Bool? = nil, language: metaoneSDK.SupportedLanguage? = nil, sigResetReq: Swift.String? = nil)
+    public func toAPIFormat() -> [Swift.String : Any]
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
   public struct SerializedError : Swift.Error {
   }
 }
@@ -1396,6 +1406,9 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func setup(completion: @escaping () -> Swift.Void)
   public func initialize(sdkConfig: metaoneSDK.SDKConfig? = nil, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func setupConfig(callback: metaoneSDK.M1EnqueueCallback<metaoneSDK.AppConfig.Config>? = nil)
+  public func getUserCurrency(callback: metaoneSDK.M1EnqueueCallback<Swift.String>? = nil)
+  public func setUserCurrency(fiat: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
+  public func getSupportedCurrencies() -> [metaoneSDK.AppConfig.CurrencyData]?
   public func setupUserData(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func refreshSession(callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func startActivity(screenName: metaoneSDK.NavigationStackType)
@@ -1457,6 +1470,10 @@ public enum AppConfig {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct CurrencyData : Swift.Codable {
+    public let name: Swift.String?
+    public let code: Swift.String?
+    public let symbol: Swift.String?
+    public let icon: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -1949,7 +1966,7 @@ public enum AuthApiModel {
   public struct SerializedError : Swift.Error {
   }
 }
-public enum SupportedLanguage : Swift.String, Swift.CaseIterable {
+public enum SupportedLanguage : Swift.String, Swift.CaseIterable, Swift.Codable {
   case ENGLISH_US
   case VIETNAMESE
   case INDONESIAN
