@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name metaoneSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name metaoneSDK
 import AVFoundation
 import Alamofire
 import AudioToolbox
@@ -1880,11 +1879,10 @@ public enum UtilsApiModel {
 public enum EventType {
   case showSDKUI
   case hideSDKUI
-  public static func == (a: metaoneSDK.EventType, b: metaoneSDK.EventType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+  case walletCreated(metaoneSDK.Wallet)
+}
+extension metaoneSDK.EventType : Swift.Equatable {
+  public static func == (lhs: metaoneSDK.EventType, rhs: metaoneSDK.EventType) -> Swift.Bool
 }
 public struct Subscriber {
 }
@@ -2035,8 +2033,6 @@ extension metaoneSDK.DepositAddress.CodingKeys : Swift.RawRepresentable {}
 extension metaoneSDK.GlobalMessageType : Swift.Equatable {}
 extension metaoneSDK.GlobalMessageType : Swift.Hashable {}
 extension metaoneSDK.GlobalMessageType : Swift.RawRepresentable {}
-extension metaoneSDK.EventType : Swift.Equatable {}
-extension metaoneSDK.EventType : Swift.Hashable {}
 extension metaoneSDK.SupportedLanguage : Swift.Equatable {}
 extension metaoneSDK.SupportedLanguage : Swift.Hashable {}
 extension metaoneSDK.SupportedLanguage : Swift.RawRepresentable {}
