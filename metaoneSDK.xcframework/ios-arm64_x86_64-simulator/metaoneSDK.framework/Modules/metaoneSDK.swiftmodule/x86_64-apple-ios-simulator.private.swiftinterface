@@ -167,7 +167,7 @@ extension Swift.String {
 public enum User {
   public struct Profile : Swift.Codable {
     public let user: Swift.String
-    public let name: Swift.String
+    public let name: Swift.String?
     public let email: Swift.String
     public let avatar: Swift.String?
     public let update: Swift.Int64?
@@ -688,6 +688,10 @@ public enum UserApiModel {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct GetUserSettingsResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct UserPresetsChainsResponse : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
