@@ -3,6 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name metaoneSDK
 import AVFoundation
 import Alamofire
+import AlamofireObjectMapper
 import AudioToolbox
 import BigInt
 import CYBAVOWallet
@@ -15,6 +16,7 @@ import Foundation
 import KeychainSwift
 import Lottie
 import ObjectMapper
+import SVGKit
 import Swift
 import SwiftUI
 import SwiftyRSA
@@ -27,6 +29,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import metaoneSDK
+public enum BrowserApiModel {
+}
 @_Concurrency.MainActor(unsafe) public struct VerifyEmailView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(verifyEmailModel: metaoneSDK.VerifyEmailModel, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?, token: Swift.String, email: Swift.String, expiresAt: Swift.Int64)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -186,11 +190,22 @@ public enum User {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK19VirtualKeyboardViewV4bodyQrvp", 0) __
 }
-public enum NavigationStackType {
+public enum NavigationStackType : Swift.Hashable, Swift.Identifiable {
   case createSignature
   case openWallet
+  case openBrowser(Swift.String?)
   case openEmailVerification(Swift.String, Swift.String, metaoneSDK.EventCenter, Swift.Int64, metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
   case confirmTransaction(Swift.String, (() -> Swift.Void)?, metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
+  case transactionSuccess(() -> Swift.Void)
+  case transactionFailure(() -> Swift.Void, Swift.String)
+  public var id: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias ID = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 extension metaoneSDK.NavigationStackType : Swift.Equatable {
   public static func == (lhs: metaoneSDK.NavigationStackType, rhs: metaoneSDK.NavigationStackType) -> Swift.Bool
@@ -334,6 +349,7 @@ public enum Wallets {
     public var enabled: Swift.Bool?
     public var network: Swift.String?
     public var alchemyNetwork: Swift.String?
+    public var browser: Swift.Bool?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -621,6 +637,7 @@ public struct SDKConfig {
   public static var SDK_CONFIG_URL: Swift.String
   public static var SDK_PUB_PHRASE: Swift.String
   public static var SDK_API_CLIENT_REFERENCE: Swift.String
+  public static var DEFAULT_RPC_URL: Swift.String
   public static var SDK_BASE_CONFIG_URL: Swift.String {
     get
   }
@@ -670,6 +687,7 @@ public enum ContactApiModel {
     public init(from decoder: any Swift.Decoder) throws
   }
 }
+public func getValidSignParams(txString: Swift.String, transactionFee: Swift.String?, nonce: Swift.String?, customGasLimit: Swift.String?) -> Swift.String
 @_hasMissingDesignatedInitializers public class Helpers {
   @objc deinit
 }
@@ -702,6 +720,10 @@ public enum UserApiModel {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct SerializedError : Swift.Error {
+  }
+  public struct UserSettings : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
 }
 public enum Transactions {
@@ -1088,6 +1110,70 @@ public struct TransactionDestinationValues {
   
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK15BulletPointViewV4bodyQrvp", 0) __
 }
+extension SwiftUI.View {
+  public func axisToolTip<F>(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder foreground: @escaping () -> F) -> some SwiftUI.View where F : SwiftUI.View
+  
+  public func axisToolTip<B, F>(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder background: @escaping () -> B, @SwiftUI.ViewBuilder foreground: @escaping () -> F) -> some SwiftUI.View where B : SwiftUI.View, F : SwiftUI.View
+  
+}
+public enum ATAxisMode : Swift.Sendable {
+  case top
+  case bottom
+  case leading
+  case trailing
+  public static func == (a: metaoneSDK.ATAxisMode, b: metaoneSDK.ATAxisMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ATConstant : Swift.Equatable {
+  public var axisMode: metaoneSDK.ATAxisMode
+  public var border: metaoneSDK.ATBorderConstant
+  public var arrow: metaoneSDK.ATArrowConstant
+  public var shadow: metaoneSDK.ATShadowConstant
+  public var distance: CoreFoundation.CGFloat
+  public var animation: SwiftUI.Animation?
+  public init(axisMode: metaoneSDK.ATAxisMode = .bottom, border: metaoneSDK.ATBorderConstant = .init(), arrow: metaoneSDK.ATArrowConstant = .init(), shadow: metaoneSDK.ATShadowConstant = .init(), distance: CoreFoundation.CGFloat = 8, animation: SwiftUI.Animation? = .easeInOut(duration: 0.28))
+  public static func == (a: metaoneSDK.ATConstant, b: metaoneSDK.ATConstant) -> Swift.Bool
+}
+public struct ATBorderConstant : Swift.Equatable {
+  public var radius: CoreFoundation.CGFloat
+  public var lineWidth: CoreFoundation.CGFloat
+  public var color: SwiftUI.Color
+  public var style: SwiftUI.StrokeStyle?
+  public init(radius: CoreFoundation.CGFloat = 10, lineWidth: CoreFoundation.CGFloat = 2, color: SwiftUI.Color = .white.opacity(0.1), style: SwiftUI.StrokeStyle? = nil)
+  public static func == (a: metaoneSDK.ATBorderConstant, b: metaoneSDK.ATBorderConstant) -> Swift.Bool
+}
+public struct ATArrowConstant : Swift.Equatable {
+  public var width: CoreFoundation.CGFloat
+  public var height: CoreFoundation.CGFloat
+  public init(width: CoreFoundation.CGFloat = 10, height: CoreFoundation.CGFloat = 10)
+  public static func == (a: metaoneSDK.ATArrowConstant, b: metaoneSDK.ATArrowConstant) -> Swift.Bool
+}
+public struct ATShadowConstant : Swift.Equatable {
+  public var color: SwiftUI.Color
+  public var radius: CoreFoundation.CGFloat
+  public var x: CoreFoundation.CGFloat
+  public var y: CoreFoundation.CGFloat
+  public init(color: SwiftUI.Color = .black.opacity(0.3), radius: CoreFoundation.CGFloat = 3, x: CoreFoundation.CGFloat = 0, y: CoreFoundation.CGFloat = 0)
+  public static func == (a: metaoneSDK.ATShadowConstant, b: metaoneSDK.ATShadowConstant) -> Swift.Bool
+}
+public struct AxisTooltip<B, F> : SwiftUI.ViewModifier where B : SwiftUI.View, F : SwiftUI.View {
+  public var alignment: SwiftUI.Alignment
+  public var constant: metaoneSDK.ATConstant
+  public var background: (() -> B)?
+  public var foreground: () -> F
+  @_Concurrency.MainActor(unsafe) public func body(content: metaoneSDK.AxisTooltip<B, F>.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK11AxisTooltipV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACyxq_GG_tF", 0) __<B, F>
+}
+extension metaoneSDK.AxisTooltip where B == SwiftUI.EmptyView {
+  public init(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder foreground: @escaping () -> F)
+}
+extension metaoneSDK.AxisTooltip {
+  public init(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder background: @escaping () -> B, @SwiftUI.ViewBuilder foreground: @escaping () -> F)
+}
 public enum TransactionAPIModel {
   public struct TransactionResponse : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
@@ -1107,7 +1193,7 @@ public enum TransactionAPIModel {
   }
   public struct GasPriceResponse : Swift.Decodable {
     public let data: metaoneSDK.TransactionAPIModel.GetTransactionFeeResult
-    public let responseCode: Swift.String
+    public let responseCode: Swift.String?
     public let errorType: Swift.String?
     public let error: Swift.String?
     public init(from decoder: any Swift.Decoder) throws
@@ -1116,7 +1202,7 @@ public enum TransactionAPIModel {
     public var high: metaoneSDK.TransactionAPIModel.Fee?
     public var medium: metaoneSDK.TransactionAPIModel.Fee?
     public var low: metaoneSDK.TransactionAPIModel.Fee?
-    public let withdrawMin: Swift.String
+    public let withdrawMin: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -1419,10 +1505,13 @@ public class MetaOneSDKManager : Foundation.ObservableObject {
   public func login(requestData: metaoneSDK.AuthApiModel.SSOLoginRequest, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>)
   public func openEmailVerification(token: Swift.String, email: Swift.String, expiresAt: Swift.Int64, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
   public func openConfirmTransaction(data: Swift.String, closeAction: (() -> Swift.Void)?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>?)
+  public func signCustomTransaction(wallet: metaoneSDK.Wallets.UserWallet, signingData: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
+  public func signCustomMessage(wallet: metaoneSDK.Wallets.UserWallet, signingData: Swift.String, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func sendTransaction(wallet: metaoneSDK.Wallets.UserWallet, address: Swift.String, amount: Swift.String, asset: metaoneSDK.Wallets.WalletToken?, memo: Swift.String?, personalNote: Swift.String?, callback: metaoneSDK.M1EnqueueCallback<Swift.Bool>? = nil)
   public func isSignatureSet() -> Swift.Bool
   public func setPrefix(prefix: Swift.String)
   public func requestCameraPermission()
+  public func openBrowser(sheet: Swift.Bool = false, url: Swift.String? = nil) -> metaoneSDK.ErrorResponse?
   public func openWallet() -> metaoneSDK.ErrorResponse?
   public func createSigning(data: Swift.String)
   public func getExpireAt() -> Swift.Int64
@@ -1687,6 +1776,10 @@ public enum Signing {
     public init(from decoder: any Swift.Decoder) throws
   }
   public struct WalletConnectTransactionEventResponse : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct BrowserSignTransactionEventResponse : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -2022,6 +2115,8 @@ extension metaoneSDK.Transactions.TransactionDirection : Swift.RawRepresentable 
 extension metaoneSDK.Transactions.AlchemyQueryOrderStatus : Swift.Equatable {}
 extension metaoneSDK.Transactions.AlchemyQueryOrderStatus : Swift.Hashable {}
 extension metaoneSDK.Transactions.AlchemyQueryOrderStatus : Swift.RawRepresentable {}
+extension metaoneSDK.ATAxisMode : Swift.Equatable {}
+extension metaoneSDK.ATAxisMode : Swift.Hashable {}
 extension metaoneSDK.TransactionAPIModel.TxDataTypes : Swift.Equatable {}
 extension metaoneSDK.TransactionAPIModel.TxDataTypes : Swift.Hashable {}
 extension metaoneSDK.TransactionAPIModel.TxDataTypes : Swift.RawRepresentable {}

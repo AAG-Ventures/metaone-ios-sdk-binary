@@ -165,4 +165,15 @@ setupWKWebViewJavascriptBridge(function(bridge) {
             );
         })
     };
+    
+    window.M1SDKEvents.openBrowser = (url) => {
+        return new Promise((resolve, reject) => {
+            bridge.callHandler('openBrowser',
+                               {url:url},
+                               function(results, error){
+                                    resolve(results);
+                                }
+            );
+        })
+    };
 });

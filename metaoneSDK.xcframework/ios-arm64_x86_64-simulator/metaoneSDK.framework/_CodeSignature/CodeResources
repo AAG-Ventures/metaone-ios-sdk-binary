@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		bm4n9ITA7ZSU4X8JrDzistAr+nE=
+		RUVR9/fivKGC2NOuWKJOtA1J/Y0=
 		</data>
 		<key>Headers/metaoneSDK-Swift.h</key>
 		<data>
@@ -18,55 +18,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LMNF8thTHoEImEcokq27yTq2pEo=
+		kn0FGZNagsnsL2f7TnnjscE8LDI=
+		</data>
+		<key>InpageBridgeWeb3.js</key>
+		<data>
+		TtYh3z+B4xSOyspAqxNj4eTalHs=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		h1z+fZUJFzUB2TOnYhEywvUpC64=
+		Zp+4Wq0uryw9akyEOuxbiNuEtvc=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		O9jgAQJUXS1yyvmevccLS7bU8q0=
+		FkWUzSPXasU0LmJzBW5s8GS2dgo=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2n6MQdoP0fNgCMIBAZzRGZrtAb4=
+		BgggSadHwheS5je/Ei4Xm8QZJfU=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Uc26vJohNgGOnquUBRbKV6T6dV8=
+		A3yPIry8RGP6FHsTtycdD9KQ5TM=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+iXBBKz+XCq9v+iiu+82PKQtRIo=
+		AnB7VeDnXrwOr14BTPIpaX0+AOM=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Uc26vJohNgGOnquUBRbKV6T6dV8=
+		A3yPIry8RGP6FHsTtycdD9KQ5TM=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pxpxdGAd/Xo9dIOyyrOOGuU0YtU=
+		qtzFuZ2cIFyjjFFwDvZcexJosUs=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2n6MQdoP0fNgCMIBAZzRGZrtAb4=
+		BgggSadHwheS5je/Ei4Xm8QZJfU=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iIL1vBtk3QFE0FmIRli1UcbjLeQ=
+		uyqkEqRswzosy4QbTXu6OQmX5MA=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EbUBM6Y4w1Ozw12s80sFyy/+xPY=
+		jHXHOxi5TN3vpg1v7GeewVMxcgc=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iIL1vBtk3QFE0FmIRli1UcbjLeQ=
+		uyqkEqRswzosy4QbTXu6OQmX5MA=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		knibtheOe5hWR5YjU/UkHlgww2c=
+		+vPPnS3SUW5pQ0qSVxIMJEaMf4M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>en-US.json</key>
 		<data>
-		OsliXs1h3o6viu5Rj3UqS4tEGBQ=
+		NYMm3BiMm33grPq4kCMy6UFz3FU=
 		</data>
 		<key>faceid.json</key>
 		<data>
@@ -98,7 +102,7 @@
 		</data>
 		<key>id-ID.json</key>
 		<data>
-		sEStMSHEjyG9GfM3GOZMwDsvqmE=
+		p2U4ae6GphJGD6wssynOoFyjXqo=
 		</data>
 		<key>lockicon.json</key>
 		<data>
@@ -106,7 +110,7 @@
 		</data>
 		<key>mapJSEvents.js</key>
 		<data>
-		AdSClSDPGLH7nhLrkZrVnYy5P0w=
+		M0WBLJFO5kn07lw1Ig+FuEDgAno=
 		</data>
 		<key>passcodeintro.json</key>
 		<data>
@@ -166,23 +170,23 @@
 		</data>
 		<key>tl-PH.json</key>
 		<data>
-		R/L+VmIq+9MWsAFuvNBTpwXcJeE=
+		WOPUPDBU1zLDYu0i0+NguKjn6lw=
 		</data>
 		<key>translations.json</key>
 		<data>
-		aMPe3TN0mrFc9opIvC2892rlzUg=
+		FsuSmhPuajsGO7oDuuwaQQG+Vls=
 		</data>
 		<key>vi-VN.json</key>
 		<data>
-		znivZ7grqPFXuAATRGa5lrMp6VU=
+		S8a7m2HIfLdj4mMizFSjZsi+LME=
 		</data>
 		<key>zh-CN.json</key>
 		<data>
-		98P+4adxFPpgim+DUgT4izsz8D8=
+		oMbzQxLH4A7ZAj3o65UUMcECtcM=
 		</data>
 		<key>zh-TW.json</key>
 		<data>
-		5cQoZ+U2XdKlsEYOvaT2EQWjml0=
+		zCCCvNiC/1/Sze51keFRFYs5Vlw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -191,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n4rrWHd93NUe642qfAvyoT+g7Me+U7k8sFbQyCo+g0M=
+			415aHhDZ3VCVoXxj3j9Oghc5Be1DHRia/X4n1jMxeeo=
 			</data>
 		</dict>
 		<key>Headers/metaoneSDK-Swift.h</key>
@@ -208,88 +212,95 @@
 			OTGERdEAdQnA3q7TeQ/4zQtafmC0dlVQcIk32KqgGB4=
 			</data>
 		</dict>
+		<key>InpageBridgeWeb3.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bzQSiLzDps/D+P/EACdC/Yz/M3Qf6vTYXLJQkqV0tP8=
+			</data>
+		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6aOOdPj7omZA1xsrczDVcm9DSW3Mr638zlYG+ulNd60=
+			BPt/hKo2XIrjuwGuzvtC6pnl+OZGBxlS9xqKcuvbRR4=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KENVMIQc3HGBQfPusrjreOccfiu3FJbUh1L1vjmpDgg=
+			xf4qeZzxYmLeUPdMa4bz4Fv7wKvK68w1/hIplT46+FI=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R15fDQiWxqhi4ayKKfIhb+5jLxW8becPkCcIJkt1o88=
+			bSBKAFqGBLQHIaUE8GGJkrxTMp+TjCHG9jAvch010o8=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4X93A2r3S2hWQ5JG4eFfbb3dKoFvYJUW80uQq9luB4=
+			qLbDYoCIn5f4oIS0CdvLKDaq6FG71kegkbTZrwi+2mQ=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NsEOI4WojeSUWq1of63dSxCu54VRkD4ongnTFekVZJk=
+			6o7t0toyFlwfbZrUcEx27boeEh3ttcmnY2RuvFB84V8=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4X93A2r3S2hWQ5JG4eFfbb3dKoFvYJUW80uQq9luB4=
+			qLbDYoCIn5f4oIS0CdvLKDaq6FG71kegkbTZrwi+2mQ=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zHQF0OtufjT4dFlJF/iU7II3ksqcwCEKPAps6bmNH9U=
+			QJZn64JaRfz3Vzc+3VgWy7CFrnXzL2QphEsDZW2ySBg=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R15fDQiWxqhi4ayKKfIhb+5jLxW8becPkCcIJkt1o88=
+			bSBKAFqGBLQHIaUE8GGJkrxTMp+TjCHG9jAvch010o8=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrMzQnsrEoEyFxZwlsD1AhKQBUukTyZAxJxAlUpGU+Q=
+			BGLU1FYGAMwmsvAQKZ9r1NJJ96WCf7OGvfXeHzLqXus=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OEO1ZqRRRW/TdG7+ZxdqyPHhk/d1cc81BK/+NkeptTI=
+			S1OwJxcUXDqh2b0ALYZH2QS4mZ2FF5WjMxPue6cc4E8=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrMzQnsrEoEyFxZwlsD1AhKQBUukTyZAxJxAlUpGU+Q=
+			BGLU1FYGAMwmsvAQKZ9r1NJJ96WCf7OGvfXeHzLqXus=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MrBtws+Pce6NDtryai67EtJFbc5dcDmXiUcA9Vz29MI=
+			EYChqRh8sfyjn15fr3uVr/Wjvr3PjYB8AFRietUcI8w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -317,7 +328,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0g7QFdr3rebdeC33MAmLbx0qExBDJOIHpral1y6axns=
+			u0rADCjd3Et2qnBT/vFhM6Q6b1mdMKRxf8Dws3iL5II=
 			</data>
 		</dict>
 		<key>faceid.json</key>
@@ -345,7 +356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rfa4C4NU/GIqGnRzqCVerK5Ztjsw3Jbjd3TLqGxi9b4=
+			Wwq73JrgWhLyLb6zNKeRnQzrpC6OtUtCBafq9doBVUE=
 			</data>
 		</dict>
 		<key>lockicon.json</key>
@@ -359,7 +370,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VOAS4qdsQ2mXVnMKeymg2LrOL6t7fO6IcEA3V7ph0rM=
+			eEN3lVxI8pFZ6G9TiSF/WurcwSw2lmKbSTIWm/RqCuQ=
 			</data>
 		</dict>
 		<key>passcodeintro.json</key>
@@ -464,35 +475,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/oZkliFan0tZpWLE2QDWykQgKujSg2yH0Z01qCbNRVU=
+			4Z/GFpOBXN/Zq/LbzZSXiDDGTnqeHCOwftl0ENS/en0=
 			</data>
 		</dict>
 		<key>translations.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S6JfIWchDYUAXWc9dWG8i49nXwrluYROife3xm/ivsM=
+			EuB1dp3Npv5euSjjio/nY49sJmFt/ptOXF61mrXvmzc=
 			</data>
 		</dict>
 		<key>vi-VN.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			imvS9dzAvFCgQH9a6yuzm8Ma7OdaYChXWOd/EEtHWVU=
+			pGIYuna9+pzkRDuw669URQ1VphWyymnMWLkPBS6x9pQ=
 			</data>
 		</dict>
 		<key>zh-CN.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mXMOkVCkp5lo6+RshJKsQVsA+j7J5IyNAOwUyyp2oIM=
+			38537A8zq2Unq0nVGismFhx6CFht+Ao5sTX+JzJO/1Y=
 			</data>
 		</dict>
 		<key>zh-TW.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l24sNEgICGBZRuMw1OluS8ajOUsNAxoUKQDdGOmTSZc=
+			2LgpmqEaWKQfHkGOMDsxNafb8Vp6f2/v7zVjEfvS6cg=
 			</data>
 		</dict>
 	</dict>
