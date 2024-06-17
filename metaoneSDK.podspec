@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name              = 'metaoneSDK'
     s.module_name       = 'metaoneSDK'
-    s.version           = '2.0.2'
+    s.version           = '2.0.3'
   
     s.summary           = 'Embeddable Wallet SDK for any mobile app'
   
@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
     s.dependency "KeychainSwift", "~> 20.0.0"
     s.dependency "WKWebViewJavascriptBridge"
     s.dependency "lottie-ios"
-    s.dependency "SVGKit"
     s.ios.vendored_frameworks = 'metaoneSDK.xcframework'
 
     s.requires_arc = true

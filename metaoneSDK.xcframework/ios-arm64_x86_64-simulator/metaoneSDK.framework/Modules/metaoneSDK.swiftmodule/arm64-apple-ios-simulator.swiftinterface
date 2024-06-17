@@ -11,12 +11,12 @@ import Combine
 import CommonCrypto
 import CryptoKit
 import CryptoSwift
+import Darwin
 import DeveloperToolsSupport
 import Foundation
 import KeychainSwift
 import Lottie
 import ObjectMapper
-import SVGKit
 import Swift
 import SwiftUI
 import SwiftyRSA
@@ -1173,6 +1173,17 @@ extension metaoneSDK.AxisTooltip where B == SwiftUI.EmptyView {
 }
 extension metaoneSDK.AxisTooltip {
   public init(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder background: @escaping () -> B, @SwiftUI.ViewBuilder foreground: @escaping () -> F)
+}
+public class SVG {
+  @objc deinit
+  convenience public init?(_ value: Swift.String)
+  public init?(_ data: Foundation.Data)
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+  public func image() -> UIKit.UIImage?
+  public func draw(in context: CoreGraphics.CGContext)
+  public func draw(in context: CoreGraphics.CGContext, size target: CoreFoundation.CGSize)
 }
 public enum TransactionAPIModel {
   public struct TransactionResponse : Swift.Codable {

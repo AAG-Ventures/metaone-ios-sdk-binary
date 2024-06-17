@@ -44956,16 +44956,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "metaoneSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -44973,10 +44963,236 @@
       },
       {
         "kind": "Import",
-        "name": "SVGKit",
-        "printedName": "SVGKit",
+        "name": "Darwin",
+        "printedName": "Darwin",
         "declKind": "Import",
         "moduleName": "metaoneSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "metaoneSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "metaoneSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVG",
+        "printedName": "SVG",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "metaoneSDK.SVG?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVG",
+                    "printedName": "metaoneSDK.SVG",
+                    "usr": "s:10metaoneSDK3SVGC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10metaoneSDK3SVGCyACSgSScfc",
+            "mangledName": "$s10metaoneSDK3SVGCyACSgSScfc",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "metaoneSDK.SVG?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVG",
+                    "printedName": "metaoneSDK.SVG",
+                    "usr": "s:10metaoneSDK3SVGC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10metaoneSDK3SVGCyACSg10Foundation4DataVcfc",
+            "mangledName": "$s10metaoneSDK3SVGCyACSg10Foundation4DataVcfc",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10metaoneSDK3SVGC4sizeSo6CGSizeVvp",
+            "mangledName": "$s10metaoneSDK3SVGC4sizeSo6CGSizeVvp",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10metaoneSDK3SVGC4sizeSo6CGSizeVvg",
+                "mangledName": "$s10metaoneSDK3SVGC4sizeSo6CGSizeVvg",
+                "moduleName": "metaoneSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK3SVGC5imageSo7UIImageCSgyF",
+            "mangledName": "$s10metaoneSDK3SVGC5imageSo7UIImageCSgyF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGContext",
+                "printedName": "CoreGraphics.CGContext",
+                "usr": "c:@T@CGContextRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK3SVGC4draw2inySo12CGContextRefa_tF",
+            "mangledName": "$s10metaoneSDK3SVGC4draw2inySo12CGContextRefa_tF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(in:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGContext",
+                "printedName": "CoreGraphics.CGContext",
+                "usr": "c:@T@CGContextRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10metaoneSDK3SVGC4draw2in4sizeySo12CGContextRefa_So6CGSizeVtF",
+            "mangledName": "$s10metaoneSDK3SVGC4draw2in4sizeySo12CGContextRefa_So6CGSizeVtF",
+            "moduleName": "metaoneSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10metaoneSDK3SVGC",
+        "mangledName": "$s10metaoneSDK3SVGC",
+        "moduleName": "metaoneSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -76556,6 +76772,55 @@
       "offset": 14698,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 21,
+      "value": "\"CGSVGDocumentRetain\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 22,
+      "value": "\"CGSVGDocumentRelease\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1245,
+      "length": 29,
+      "value": "\"CGSVGDocumentCreateFromData\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 26,
+      "value": "\"CGContextDrawSVGDocument\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1478,
+      "length": 28,
+      "value": "\"CGSVGDocumentGetCanvasSize\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1670,
+      "length": 26,
+      "value": "\"_imageWithCGSVGDocument:\""
+    },
+    {
+      "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1720,
+      "length": 61,
+      "value": "\"\/System\/Library\/PrivateFrameworks\/CoreSVG.framework\/CoreSVG\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/models\/api\/TransactionApiModel.swift",
