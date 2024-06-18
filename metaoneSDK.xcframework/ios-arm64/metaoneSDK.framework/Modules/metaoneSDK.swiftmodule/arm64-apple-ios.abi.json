@@ -76776,49 +76776,49 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 1513,
       "length": 21,
       "value": "\"CGSVGDocumentRetain\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 1611,
       "length": 22,
       "value": "\"CGSVGDocumentRelease\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
       "kind": "StringLiteral",
-      "offset": 1245,
+      "offset": 1746,
       "length": 29,
       "value": "\"CGSVGDocumentCreateFromData\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
       "kind": "StringLiteral",
-      "offset": 1367,
+      "offset": 1868,
       "length": 26,
       "value": "\"CGContextDrawSVGDocument\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
       "kind": "StringLiteral",
-      "offset": 1478,
+      "offset": 1979,
       "length": 28,
       "value": "\"CGSVGDocumentGetCanvasSize\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
       "kind": "StringLiteral",
-      "offset": 1670,
+      "offset": 2171,
       "length": 26,
       "value": "\"_imageWithCGSVGDocument:\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/utils\/SVGImageView.swift",
       "kind": "StringLiteral",
-      "offset": 1720,
+      "offset": 2221,
       "length": 61,
       "value": "\"\/System\/Library\/PrivateFrameworks\/CoreSVG.framework\/CoreSVG\""
     },
