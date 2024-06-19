@@ -77147,35 +77147,35 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/browser\/Browser.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/browser\/Browser.swift",
       "kind": "BooleanLiteral",
-      "offset": 899,
+      "offset": 889,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/browser\/Browser.swift",
       "kind": "BooleanLiteral",
-      "offset": 947,
+      "offset": 937,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/browser\/Browser.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 979,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/browser\/Browser.swift",
       "kind": "IntegerLiteral",
-      "offset": 1047,
+      "offset": 1099,
       "length": 1,
       "value": "0"
     },

@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		d2cmFbHE9O5zJAWSWFHdc/ityRA=
+		h52VvsmhFD1entu0nlMnKSnah5A=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Z1jERs11T8HMsRKxmVFcBYiyyeE=
+		AgLbbFp1lHPnqjz556dX4un9BlI=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CLmYLXf9iamDRCzsSFWCngq2Wa4=
+		32rBac0ceHe2T6/E7mJJo8nMoMo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -199,14 +199,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FP1KhHqOYBiQTt0CtbQwrJqDDrOweqjzYP4MzcTCwm4=
+			+AhlYmM4eUF2PM1QjZtxXl1hCWyy2hnfkxCzx2Dh+Q8=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPcgR55bvsSqDTKZKglbScxWb5kJpe8sqgJw1AOpzI4=
+			/IyFB5PyNMcsRolt3ZsOz+VT6v6t0xtMziuacP4e87k=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -234,7 +234,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Ngf7mo2EPu0UK7GuHwxikaFWfRV411sZSgltyRZRsE=
+			U8oPbo5N/x3JWtwTDp9JZskjgzeMGWZUgHkGeGDlpwU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
