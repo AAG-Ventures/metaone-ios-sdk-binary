@@ -631,6 +631,7 @@ public struct SDKConfig {
   public init(SDK_VERSION: Swift.String, SDK_REALM: Swift.String, SDK_ENVIRONMENT: Swift.String, SDK_CONFIG_URL: Swift.String, SDK_PUB_PHRASE: Swift.String, SDK_API_CLIENT_REFERENCE: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class ConfigProvider {
+  public static var LOCAL_VERSION: Swift.String
   public static var SDK_VERSION: Swift.String
   public static var SDK_REALM: Swift.String
   public static var SDK_ENVIRONMENT: Swift.String
