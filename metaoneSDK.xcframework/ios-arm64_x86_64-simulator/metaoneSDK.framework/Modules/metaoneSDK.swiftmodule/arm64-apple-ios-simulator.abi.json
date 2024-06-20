@@ -76519,7 +76519,7 @@
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/browser\/BrowserUI\/BrowserCustomSearchField.swift",
       "kind": "IntegerLiteral",
-      "offset": 7404,
+      "offset": 7249,
       "length": 1,
       "value": "0"
     },
@@ -76563,14 +76563,14 @@
       "kind": "StringLiteral",
       "offset": 861,
       "length": 7,
-      "value": "\"2.0.9\""
+      "value": "\"2.1.0\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",
       "kind": "StringLiteral",
       "offset": 913,
       "length": 7,
-      "value": "\"2.0.9\""
+      "value": "\"2.1.0\""
     },
     {
       "filePath": "\/Users\/domen\/Mobile_Projects\/ios-sdk\/metaone-wallet-ios-sdk\/metaoneSDK\/metaoneSDK\/ConfigProvider.swift",

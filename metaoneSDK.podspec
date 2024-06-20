@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name              = 'metaoneSDK'
     s.module_name       = 'metaoneSDK'
-    s.version           = '2.0.9'
+    s.version           = '2.1.0'
   
     s.summary           = 'Embeddable Wallet SDK for any mobile app'
   
