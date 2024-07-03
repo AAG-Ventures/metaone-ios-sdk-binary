@@ -26,27 +26,27 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		sWkznL8GLNclfGh5WXsC3bKm+Qw=
+		MIyOo9tKISTxdXNHQdIuEmkLqxc=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		SqO1cW2L8amBg3QQPJ2jjnFwXY8=
+		MEx7MsU13WnfD4OS+w6LoumOVF8=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		oz/OtXCB+QTUM/jtA0WBheu0aig=
+		IDrRrPPj3NQudQczKm/dg1KQts4=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hJcbEqidwbQP9Inzgyj4W68ZnS8=
+		dupzfia/IJGekyO3+AdBPV1cM5E=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oz/OtXCB+QTUM/jtA0WBheu0aig=
+		IDrRrPPj3NQudQczKm/dg1KQts4=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dAAgfXpMji+qca11aC2l7PrT1DA=
+		tbeOeISOCqyYRo1JESxO78GPnlI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>id-ID.json</key>
 		<data>
-		p2U4ae6GphJGD6wssynOoFyjXqo=
+		OwsG73tTSWMTvJmiCT4Zfbo9dvc=
 		</data>
 		<key>lockicon.json</key>
 		<data>
@@ -146,23 +146,23 @@
 		</data>
 		<key>tl-PH.json</key>
 		<data>
-		WOPUPDBU1zLDYu0i0+NguKjn6lw=
+		yp670m0L9uD5eoOOSAi1xJL/uPE=
 		</data>
 		<key>translations.json</key>
 		<data>
-		FsuSmhPuajsGO7oDuuwaQQG+Vls=
+		Y5uQ8+Db0WkjLPMXfF0CuCLW1jo=
 		</data>
 		<key>vi-VN.json</key>
 		<data>
-		S8a7m2HIfLdj4mMizFSjZsi+LME=
+		lSJZCw7JnhiaHQTX6uCs5TWvu/0=
 		</data>
 		<key>zh-CN.json</key>
 		<data>
-		oMbzQxLH4A7ZAj3o65UUMcECtcM=
+		KTqs0cwh5kO/GepCpQl9a4eJzc8=
 		</data>
 		<key>zh-TW.json</key>
 		<data>
-		zCCCvNiC/1/Sze51keFRFYs5Vlw=
+		e8UihpdzkiFJn1B6hKCF8ZjWkmQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -199,42 +199,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2b1Ix8lgqaEfhsHcSYB+rcDV5V6BrzB9Twv3y+6evY=
+			eCny/MNKtCkwgZEyrBEyYLAvTk2kPGRRWIaIEFxH1MU=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			00al+fwK/iLdy9+7AcVbPSiT+G7TBiW3i30xZcRzJSA=
+			1Jbdgcq6iVvSer2/SwVA4Q4DC+18oQo8IvMZjB/klhg=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D7AcKdAVMxPUXNtysUIjBOm/GIs6QbTXOOhsWJbP0dA=
+			hJOz6TMucG0tUvJOmXmURWWeJhRlX5X/L3UQoz4HsMs=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ox0hFFdLpP9eDu6TaEjrXt/wpoD07qpF1T/ntjbLzFE=
+			AigMwWmv7aWIFI+nCm9KtKFFdcc2DgU1jGsawSfLLn8=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D7AcKdAVMxPUXNtysUIjBOm/GIs6QbTXOOhsWJbP0dA=
+			hJOz6TMucG0tUvJOmXmURWWeJhRlX5X/L3UQoz4HsMs=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ms+k/Ssb7/hDld6TFK8DKPVCdl2JqPKQcgUjXdrlNwU=
+			2hcIh7N783UDaWWoatmWHrk2QaK+pJZ+lQZiObYTFkk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -290,7 +290,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wwq73JrgWhLyLb6zNKeRnQzrpC6OtUtCBafq9doBVUE=
+			hvC609cDbdJLrO9GffaJ9U/QXE1uoh1uDcqR60Jjl/4=
 			</data>
 		</dict>
 		<key>lockicon.json</key>
@@ -409,35 +409,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Z/GFpOBXN/Zq/LbzZSXiDDGTnqeHCOwftl0ENS/en0=
+			QD20x0tije8Rhi4ZiW78K6eG+HU9LAZ/k0I7H2cGYFA=
 			</data>
 		</dict>
 		<key>translations.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EuB1dp3Npv5euSjjio/nY49sJmFt/ptOXF61mrXvmzc=
+			4JAE7bTWYQy25XYmG430WAHRxUZEvh4os2oArYmfBdY=
 			</data>
 		</dict>
 		<key>vi-VN.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pGIYuna9+pzkRDuw669URQ1VphWyymnMWLkPBS6x9pQ=
+			pBJOGa7iFz/ELCBoSfvF/qzOpXzTddOVke2U5ggaaBU=
 			</data>
 		</dict>
 		<key>zh-CN.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			38537A8zq2Unq0nVGismFhx6CFht+Ao5sTX+JzJO/1Y=
+			Bl7DHWCtDFwxrU5D2ky7alU9bKUB0h/ryW+d3Cy2URk=
 			</data>
 		</dict>
 		<key>zh-TW.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2LgpmqEaWKQfHkGOMDsxNafb8Vp6f2/v7zVjEfvS6cg=
+			YN33c7+EEnZF5YevKe6xgaiwZzH+eZlPI364kY0VjXQ=
 			</data>
 		</dict>
 	</dict>

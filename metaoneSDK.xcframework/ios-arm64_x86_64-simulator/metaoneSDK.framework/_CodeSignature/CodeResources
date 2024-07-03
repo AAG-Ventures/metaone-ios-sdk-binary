@@ -26,51 +26,51 @@
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ukrK9N5g1BZTk6v5I/MCgqzag3M=
+		u4ixMO8uLbdL1FQEf6cgPqmtlEU=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		l3HP/AZBt1QgYxUQgMCQd60wSPk=
+		s4C0lR/IkPhy+LECQYRMnmpJfrU=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wGRVPybwin6xsnnoXXentXvydY4=
+		yk755Kdl6iBar2Spdj32VBLPPDc=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		w7dPDD+bXH3QFL2NCeB2Wb9ndGc=
+		zie2SQYCE+d3/vhx+BKykaB9o8s=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		AnB7VeDnXrwOr14BTPIpaX0+AOM=
+		gLiUpz3qpRhHNtyZnK5AngqopFc=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w7dPDD+bXH3QFL2NCeB2Wb9ndGc=
+		zie2SQYCE+d3/vhx+BKykaB9o8s=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZVKTzGx+Qgk/ZOrZJZuyNFuNFWA=
+		Un2FeJGZTC+5f4WYn70u7Ezj8Ag=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wGRVPybwin6xsnnoXXentXvydY4=
+		yk755Kdl6iBar2Spdj32VBLPPDc=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		z2QI/EeijiY6qgzfxaQ3l5iVJdk=
+		rm+bV0KQBz9oLu57pi4H91pThQ0=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jHXHOxi5TN3vpg1v7GeewVMxcgc=
+		YLSZieWC+IiZ2fmLJQJKtXIp9ww=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		z2QI/EeijiY6qgzfxaQ3l5iVJdk=
+		rm+bV0KQBz9oLu57pi4H91pThQ0=
 		</data>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g6SpjLEeg+n0ryfA+2fLrPD1ryA=
+		14qQErQrzaXZLOI8s7mTuExhb9w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>id-ID.json</key>
 		<data>
-		p2U4ae6GphJGD6wssynOoFyjXqo=
+		OwsG73tTSWMTvJmiCT4Zfbo9dvc=
 		</data>
 		<key>lockicon.json</key>
 		<data>
@@ -170,23 +170,23 @@
 		</data>
 		<key>tl-PH.json</key>
 		<data>
-		WOPUPDBU1zLDYu0i0+NguKjn6lw=
+		yp670m0L9uD5eoOOSAi1xJL/uPE=
 		</data>
 		<key>translations.json</key>
 		<data>
-		FsuSmhPuajsGO7oDuuwaQQG+Vls=
+		Y5uQ8+Db0WkjLPMXfF0CuCLW1jo=
 		</data>
 		<key>vi-VN.json</key>
 		<data>
-		S8a7m2HIfLdj4mMizFSjZsi+LME=
+		lSJZCw7JnhiaHQTX6uCs5TWvu/0=
 		</data>
 		<key>zh-CN.json</key>
 		<data>
-		oMbzQxLH4A7ZAj3o65UUMcECtcM=
+		KTqs0cwh5kO/GepCpQl9a4eJzc8=
 		</data>
 		<key>zh-TW.json</key>
 		<data>
-		zCCCvNiC/1/Sze51keFRFYs5Vlw=
+		e8UihpdzkiFJn1B6hKCF8ZjWkmQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -223,84 +223,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZGEgvtXK3BvzlJw0ip7zGy1ql9/m4XYmADeXL7FjXQw=
+			/ICpAmzGhKdDUNAhLv21O7KEjsGSlNJSqXVnJBta+c0=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QKGKUGq798hB0YKOV2m60F6MyfehSiPgyoPt+AWpCRY=
+			Zcz6atAwunIVrjvroXlpLB4UkiZimMDx1oYbU6PjY5Q=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2896soqTCkl7F4BR6s3aFiltdlhSYqJOciK1Fd+qik=
+			tP/8taumhfv/yrDcrUFILSrAWDU7s9hKZo42IzijBdA=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9JUHAzRSx9Hax7AdMzy5+OdXTOBahYAMm7G85IcZPH4=
+			/ESrgAo++u4DZ2AA1SjzkWrkhEigww4IpIEqFqvYqgo=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6o7t0toyFlwfbZrUcEx27boeEh3ttcmnY2RuvFB84V8=
+			YZfV2hBHwRyoNFnbOXD7iv4Us49jhGDJCJh2TYQZSaM=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9JUHAzRSx9Hax7AdMzy5+OdXTOBahYAMm7G85IcZPH4=
+			/ESrgAo++u4DZ2AA1SjzkWrkhEigww4IpIEqFqvYqgo=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yye5NeoAO3uCnDOzdfAe3KHLBLZoTmin3DiTSyeOLLs=
+			jKw4xF2kXbNLMYyeljwrABWUyASJMeTQrtnR5v87cbo=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2896soqTCkl7F4BR6s3aFiltdlhSYqJOciK1Fd+qik=
+			tP/8taumhfv/yrDcrUFILSrAWDU7s9hKZo42IzijBdA=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DD9DtzPUvoHMkgpHLruyDNV1onEPhxMMOJi4ViCaZds=
+			23zPYw7hEHDQ2vxo4k3Ov00cR+ngOT340bXIn2k6FzQ=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S1OwJxcUXDqh2b0ALYZH2QS4mZ2FF5WjMxPue6cc4E8=
+			y/6ObD08SdK/jwyOYcB1Jct7AfwiWQMyAblOd2745iI=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DD9DtzPUvoHMkgpHLruyDNV1onEPhxMMOJi4ViCaZds=
+			23zPYw7hEHDQ2vxo4k3Ov00cR+ngOT340bXIn2k6FzQ=
 			</data>
 		</dict>
 		<key>Modules/metaoneSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4JZCJMCXk+/dgEUIW3W5uuXdVrAvCRKLVEUQxgLfQI=
+			2NgWuV0u/jBuwpJ4S/CfPxesdo+JgGJNoqfyJpRLqt4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -356,7 +356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wwq73JrgWhLyLb6zNKeRnQzrpC6OtUtCBafq9doBVUE=
+			hvC609cDbdJLrO9GffaJ9U/QXE1uoh1uDcqR60Jjl/4=
 			</data>
 		</dict>
 		<key>lockicon.json</key>
@@ -475,35 +475,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Z/GFpOBXN/Zq/LbzZSXiDDGTnqeHCOwftl0ENS/en0=
+			QD20x0tije8Rhi4ZiW78K6eG+HU9LAZ/k0I7H2cGYFA=
 			</data>
 		</dict>
 		<key>translations.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EuB1dp3Npv5euSjjio/nY49sJmFt/ptOXF61mrXvmzc=
+			4JAE7bTWYQy25XYmG430WAHRxUZEvh4os2oArYmfBdY=
 			</data>
 		</dict>
 		<key>vi-VN.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pGIYuna9+pzkRDuw669URQ1VphWyymnMWLkPBS6x9pQ=
+			pBJOGa7iFz/ELCBoSfvF/qzOpXzTddOVke2U5ggaaBU=
 			</data>
 		</dict>
 		<key>zh-CN.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			38537A8zq2Unq0nVGismFhx6CFht+Ao5sTX+JzJO/1Y=
+			Bl7DHWCtDFwxrU5D2ky7alU9bKUB0h/ryW+d3Cy2URk=
 			</data>
 		</dict>
 		<key>zh-TW.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2LgpmqEaWKQfHkGOMDsxNafb8Vp6f2/v7zVjEfvS6cg=
+			YN33c7+EEnZF5YevKe6xgaiwZzH+eZlPI364kY0VjXQ=
 			</data>
 		</dict>
 	</dict>

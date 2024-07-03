@@ -1112,9 +1112,9 @@ public struct TransactionDestinationValues {
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK15BulletPointViewV4bodyQrvp", 0) __
 }
 extension SwiftUI.View {
-  public func axisToolTip<F>(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder foreground: @escaping () -> F) -> some SwiftUI.View where F : SwiftUI.View
+  public func axisToolTip<F>(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), arrowXOffset: CoreFoundation.CGFloat = 0, xOffset: CoreFoundation.CGFloat = 0, @SwiftUI.ViewBuilder foreground: @escaping () -> F) -> some SwiftUI.View where F : SwiftUI.View
   
-  public func axisToolTip<B, F>(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder background: @escaping () -> B, @SwiftUI.ViewBuilder foreground: @escaping () -> F) -> some SwiftUI.View where B : SwiftUI.View, F : SwiftUI.View
+  public func axisToolTip<B, F>(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), arrowXOffset: CoreFoundation.CGFloat = 0, xOffset: CoreFoundation.CGFloat = 0, @SwiftUI.ViewBuilder background: @escaping () -> B, @SwiftUI.ViewBuilder foreground: @escaping () -> F) -> some SwiftUI.View where B : SwiftUI.View, F : SwiftUI.View
   
 }
 public enum ATAxisMode : Swift.Sendable {
@@ -1165,15 +1165,17 @@ public struct AxisTooltip<B, F> : SwiftUI.ViewModifier where B : SwiftUI.View, F
   public var constant: metaoneSDK.ATConstant
   public var background: (() -> B)?
   public var foreground: () -> F
+  public var arrowXOffset: CoreFoundation.CGFloat
+  public var xOffset: CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) public func body(content: metaoneSDK.AxisTooltip<B, F>.Content) -> some SwiftUI.View
   
   public typealias Body = @_opaqueReturnTypeOf("$s10metaoneSDK11AxisTooltipV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACyxq_GG_tF", 0) __<B, F>
 }
 extension metaoneSDK.AxisTooltip where B == SwiftUI.EmptyView {
-  public init(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder foreground: @escaping () -> F)
+  public init(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), arrowXOffset: CoreFoundation.CGFloat = 0, xOffset: CoreFoundation.CGFloat = 0, @SwiftUI.ViewBuilder foreground: @escaping () -> F)
 }
 extension metaoneSDK.AxisTooltip {
-  public init(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), @SwiftUI.ViewBuilder background: @escaping () -> B, @SwiftUI.ViewBuilder foreground: @escaping () -> F)
+  public init(isPresented: SwiftUI.Binding<Swift.Bool>, alignment: SwiftUI.Alignment = .center, constant: metaoneSDK.ATConstant = .init(), arrowXOffset: CoreFoundation.CGFloat = 0, xOffset: CoreFoundation.CGFloat = 0, @SwiftUI.ViewBuilder background: @escaping () -> B, @SwiftUI.ViewBuilder foreground: @escaping () -> F)
 }
 public class SVG {
   @objc deinit
